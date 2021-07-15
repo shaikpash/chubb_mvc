@@ -1,0 +1,27 @@
+{
+    "AS_TextField_feae63f2f4cc45dcba0916936737dcc7": {
+        "id": "AS_TextField_feae63f2f4cc45dcba0916936737dcc7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520624"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h1123ba82ff646ef93db8ea3b7d3fd52",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmItemVerify.txtFloor.text = frmItemVerify.txtFloor.text.toUpperCase();\nfrmItemVerify.txtFloor.text = removeAccent(frmItemVerify.txtFloor.text);",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true
+        }]
+    }
+}

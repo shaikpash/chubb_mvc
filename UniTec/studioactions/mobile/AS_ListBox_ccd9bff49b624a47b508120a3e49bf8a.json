@@ -1,0 +1,23 @@
+{
+    "AS_ListBox_ccd9bff49b624a47b508120a3e49bf8a": {
+        "id": "AS_ListBox_ccd9bff49b624a47b508120a3e49bf8a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521548"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j427c03b4a9146fe9b89bcdcbae5e7b2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "workOrders.onCbxOrderBySelection();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

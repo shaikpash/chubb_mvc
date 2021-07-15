@@ -1,0 +1,23 @@
+{
+    "AS_ListBox_b095f0e104d149328618d8c868d9941c": {
+        "id": "AS_ListBox_b095f0e104d149328618d8c868d9941c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520421"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dc44c8dfa23f405a90f9348a296025d3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "inventoryAllocation.onCbxFloorSelection(eventobject.selectedKey);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

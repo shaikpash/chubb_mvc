@@ -1,0 +1,22 @@
+{
+    "AS_Button_je63b484044c40939ba539258e4b0fce": {
+        "id": "AS_Button_je63b484044c40939ba539258e4b0fce",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520727"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__gb75e48cac72452882791d12b65e9d7f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "questionnaireDisplay.onAnswerTextBoxEdit();",
+            "parentId": null
+        }]
+    }
+}

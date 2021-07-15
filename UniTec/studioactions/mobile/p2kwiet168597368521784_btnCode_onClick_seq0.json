@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368521784_btnCode_onClick_seq0": {
+        "id": "p2kwiet168597368521784_btnCode_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_179266850822902666",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "inventoryAllocation.onBtnArticleChangeClick();"
+        }]
+    }
+}

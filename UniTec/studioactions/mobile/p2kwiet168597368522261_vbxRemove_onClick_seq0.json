@@ -1,0 +1,19 @@
+{
+    "p2kwiet168597368522261_vbxRemove_onClick_seq0": {
+        "id": "p2kwiet168597368522261_vbxRemove_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "context",
+            "value": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_507306850822908104",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "topology.onBtnTopologyRemoveClick(context.widgetInfo.id, context.rowIndex);"
+        }]
+    }
+}

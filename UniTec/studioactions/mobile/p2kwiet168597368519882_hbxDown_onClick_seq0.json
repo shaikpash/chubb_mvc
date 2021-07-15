@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368519882_hbxDown_onClick_seq0": {
+        "id": "p2kwiet168597368519882_hbxDown_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_940666850822903445",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "articleRecommendations.onBtnDownClick();"
+        }]
+    }
+}

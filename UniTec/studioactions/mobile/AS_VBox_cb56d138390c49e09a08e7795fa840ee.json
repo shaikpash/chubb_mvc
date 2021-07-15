@@ -1,0 +1,16 @@
+{
+    "AS_VBox_cb56d138390c49e09a08e7795fa840ee": {
+        "id": "AS_VBox_cb56d138390c49e09a08e7795fa840ee",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ied1239e53e54f50bb6fc3b50c61394a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "taskOverview.onEditRecommendationsClick();"
+        }]
+    }
+}

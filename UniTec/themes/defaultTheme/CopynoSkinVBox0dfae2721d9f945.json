@@ -1,0 +1,18 @@
+{
+  "background_color": "ffffff00",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "font_color": "000000ff",
+  "font_size": 100,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "iphone": {
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kuid": "s298fc5c06144b9981c8e8ec6cc784c9",
+  "wType": "VBox"
+}

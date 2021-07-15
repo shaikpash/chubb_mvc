@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368521192_vbxFloorAdd_onClick_seq0": {
+        "id": "p2kwiet168597368521192_vbxFloorAdd_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_390116850822906486",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "topology.onBtnFloorAddClick();"
+        }]
+    }
+}

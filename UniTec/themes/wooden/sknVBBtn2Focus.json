@@ -1,0 +1,21 @@
+{
+  "applicableblockedUIWidget": "Button",
+  "background_color": "7f7f7fff",
+  "bg_type": "one",
+  "border_color": "808080ff",
+  "border_radius": 10,
+  "border_style": "custom",
+  "border_type": 0,
+  "border_width": 1,
+  "isDefaultSkin": false,
+  "isForked": false,
+  "kuid": "sa49dd70285b4f2e99c7350e0e124613",
+  "shadow": {
+    "br": 0,
+    "color": "000000",
+    "inner": false,
+    "x": 0,
+    "y": 0
+  },
+  "wType": "VBox"
+}

@@ -1,0 +1,29 @@
+{
+    "AS_Segment_a83fa172eee94010807fe5fe0cc168a7": {
+        "id": "AS_Segment_a83fa172eee94010807fe5fe0cc168a7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521470"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j81810aa54db41689d74de4f22a44b99",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "workOrderOverview.onTaskSelection(rowNumber);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "p2kwiet168597368521096_segTasksPlanned_onRowClick_seq0": {
+        "id": "p2kwiet168597368521096_segTasksPlanned_onRowClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "sectionNumber",
+            "value": "sectionNumber"
+        }, {
+            "name": "rowNumber",
+            "value": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onRowClick_86556850822905005",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "taskOverview.onOpenTaskSurvey();"
+        }]
+    }
+}

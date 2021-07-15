@@ -1,0 +1,22 @@
+{
+    "p2kwiet168597368520371_tabInventory_onTabClick_seq0": {
+        "id": "p2kwiet168597368520371_tabInventory_onTabClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "currentindex",
+            "value": "currentindex"
+        }, {
+            "name": "isexpanded",
+            "value": "isexpanded"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onTabClick_551716850822904123",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "inventory.onTabClick(currentindex);"
+        }]
+    }
+}

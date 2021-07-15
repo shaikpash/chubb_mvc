@@ -1,0 +1,23 @@
+{
+    "AS_HBox_ja5ec80fd55e451aab316fd29e477fa8": {
+        "id": "AS_HBox_ja5ec80fd55e451aab316fd29e477fa8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "popups",
+            "platform": "",
+            "KUID": "ac6f5bd8a601404fa7cf5553be38670d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b5e0ea0949004acfb5766bb3cf46ec70",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "settingPopUp.txtBoxCheat.setEnabled(true);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "p2kwiet168597368520651_frmLogin_init_seq0": {
+        "id": "p2kwiet168597368520651_frmLogin_init_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_init_74816685082290241",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "initialiseCore",
+            "display": "initialiseCore",
+            "inputparams": [],
+            "source": "module"
+        }, {
+            "id": "expression_init_72206685082290485",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "login.init();"
+        }, {
+            "id": "customcode_init_23596850822905801",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "initWOShift",
+            "display": "initWOShift",
+            "inputparams": [],
+            "source": "module"
+        }]
+    }
+}

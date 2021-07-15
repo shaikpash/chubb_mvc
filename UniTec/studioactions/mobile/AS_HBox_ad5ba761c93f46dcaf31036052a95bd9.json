@@ -1,0 +1,26 @@
+{
+    "AS_HBox_ad5ba761c93f46dcaf31036052a95bd9": {
+        "id": "AS_HBox_ad5ba761c93f46dcaf31036052a95bd9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "type": "templates",
+            "platform": "",
+            "KUID": "p2kwiet168597368520730"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__je9d7aac1b40415ab5b59c0f772e14f1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//alert('clic');",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

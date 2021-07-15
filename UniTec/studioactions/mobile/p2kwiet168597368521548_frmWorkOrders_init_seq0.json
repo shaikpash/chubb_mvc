@@ -1,0 +1,19 @@
+{
+    "p2kwiet168597368521548_frmWorkOrders_init_seq0": {
+        "id": "p2kwiet168597368521548_frmWorkOrders_init_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_init_510526850822906523",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "workOrders.init();"
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "p2kwiet168597368519882_frmArticleRecommendations_preshow_seq0": {
+        "id": "p2kwiet168597368519882_frmArticleRecommendations_preshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_preshow_726850822905420",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "articleRecommendations.preShow();"
+        }, {
+            "id": "expression_preshow_726626850822903641",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "navigationModel.push();"
+        }]
+    }
+}

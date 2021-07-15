@@ -1,0 +1,23 @@
+{
+    "AS_Form_bbce4a08e56d4eb681ba731f31bc3871": {
+        "id": "AS_Form_bbce4a08e56d4eb681ba731f31bc3871",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "c7daf0c3dac44f3cb2a1448e4f56f1c8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e80f3f1726b444dbbab124fb8f7f221b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "articleSalesOrders.postShow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

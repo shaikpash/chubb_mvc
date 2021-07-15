@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_i159a42419d34c61ae2a880762f0c46d": {
+        "id": "AS_FlexContainer_i159a42419d34c61ae2a880762f0c46d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521584"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f7fb12d1089744caa22e61949c6f3542",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "WOValidationSignature.isIntermediaryReport = true;\nWOValidationSignature.resetContact = true;\nfrmWOValidationSignature.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

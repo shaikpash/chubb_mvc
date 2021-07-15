@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        6,
+        1,
+        6
+    ],
+    "_placeholder_": "Placeholder",
+    "_skin_": "s3fbd60e4ef24230b777822929959e61",
+    "_text_": "Paramètres supplémentaires",
+    "_top_": {
+        "type": "string",
+        "value": "3dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "focusskin": "s96fef49ee3545938fee5359fa884ad4",
+    "id": "txtBoxCheat",
+    "ide_onDone": "AS_TextField_a85dfe0322de4b62a1709d16cc7fd65f",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "dc99893294844ecb81c22dc52a7178cc",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "HBox0a106ca4bc6ef49",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "sc5d62df433242e5a16305b25536f24c",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

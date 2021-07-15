@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        3,
+        0,
+        3
+    ],
+    "_skin_": "sb20617f505e46cc8cf1ad84a8b80d35",
+    "_text_": "Button",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s06d2256dcf84b26951b2930b2fb4c77",
+    "id": "btnCancelExchange",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b68dba93ecf5495abb3d9cf5ff950160",
+    "name": "kony.ui.Button",
+    "parent": "exchangeItemPop",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "LBL_CANCEL_EXCHANGE",
+    "wType": "Button",
+    "zindex": 1
+}

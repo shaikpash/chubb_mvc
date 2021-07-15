@@ -1,0 +1,28 @@
+{
+    "p2kwiet168597368520737_e82ListeQuestions_onRowClick_seq0": {
+        "id": "p2kwiet168597368520737_e82ListeQuestions_onRowClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "sectionNumber",
+            "value": "sectionNumber"
+        }, {
+            "name": "rowNumber",
+            "value": "rowNumber"
+        }, {
+            "name": "selectedState",
+            "value": "selectedState"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onRowClick_613986850822905612",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "e82_onDisplayOptions",
+            "display": "e82_onDisplayOptions",
+            "inputparams": [],
+            "source": "module"
+        }]
+    }
+}

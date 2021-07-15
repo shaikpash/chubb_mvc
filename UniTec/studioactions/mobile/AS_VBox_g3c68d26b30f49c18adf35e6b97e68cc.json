@@ -1,0 +1,19 @@
+{
+    "AS_VBox_g3c68d26b30f49c18adf35e6b97e68cc": {
+        "id": "AS_VBox_g3c68d26b30f49c18adf35e6b97e68cc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "context",
+            "value": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a89aa7b4af5e4d4a904bc8cc3e2e7695",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "taskOverview.onVbxItemsTPClick();"
+        }]
+    }
+}

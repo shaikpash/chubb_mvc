@@ -1,0 +1,23 @@
+{
+    "AS_CheckBoxGroup_ie3aa1c2848845ba83f47b8a39dee22a": {
+        "id": "AS_CheckBoxGroup_ie3aa1c2848845ba83f47b8a39dee22a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520371"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a89488bcf4f1493f8665295f50a4622d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "inventory.filter = true;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sa907f4e1492489cb8cc8fb54cd6e0da",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "android": {
+        "render": true
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "cbxChoices"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "hbxChoices",
+    "info": null,
+    "iphone": {
+        "render": true
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cc662ddbc7954e20b3fc7695bcb3a652",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "exchangeItemPop",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "spaan": {
+        "render": true
+    },
+    "spabb": {
+        "render": true
+    },
+    "spaip": {
+        "render": true
+    },
+    "spawinphone8": {
+        "render": true
+    },
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "winphone8": {
+        "render": true
+    },
+    "zindex": 1
+}

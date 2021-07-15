@@ -1,0 +1,25 @@
+{
+    "p2kwiet168597368519902_segRelatedTasks_onRowClick_seq0": {
+        "id": "p2kwiet168597368519902_segRelatedTasks_onRowClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "sectionNumber",
+            "value": "sectionNumber"
+        }, {
+            "name": "rowNumber",
+            "value": "rowNumber"
+        }, {
+            "name": "selectedState",
+            "value": "selectedState"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onRowClick_770076850822905975",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "articleSales.onTaskSelection(rowNumber, selectedState);"
+        }]
+    }
+}

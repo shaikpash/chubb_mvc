@@ -1,0 +1,23 @@
+{
+    "AS_VBox_c60d923d6023436b8e8236a43b2c42b8": {
+        "id": "AS_VBox_c60d923d6023436b8e8236a43b2c42b8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520540"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j7a0eaf93e8b44498969afe5c383f4e4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "itemScan.scanDevice();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "AS_TextField_a3c5eab3129444ea89ed925eedce8cb7": {
+        "id": "AS_TextField_a3c5eab3129444ea89ed925eedce8cb7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520080"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i09fb4c18ff84ee79b14c4192c65141e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "catalogSearch.txtCertificationOnDone();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

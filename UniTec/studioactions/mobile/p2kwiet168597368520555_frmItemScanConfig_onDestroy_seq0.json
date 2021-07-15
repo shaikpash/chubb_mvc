@@ -1,0 +1,19 @@
+{
+    "p2kwiet168597368520555_frmItemScanConfig_onDestroy_seq0": {
+        "id": "p2kwiet168597368520555_frmItemScanConfig_onDestroy_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onDestroy_252526850822908051",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "itemScanFunctions.stopScan();"
+        }]
+    }
+}

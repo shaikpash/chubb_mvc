@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368521096_vbox23713451391092_onClick_seq0": {
+        "id": "p2kwiet168597368521096_vbox23713451391092_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_50067685082290851",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "taskOverview.onBtnRelatedProductRemoveClick();"
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_TextArea_e6ba7f9e186b406dab189672f3300841": {
+        "id": "AS_TextArea_e6ba7f9e186b406dab189672f3300841",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521249"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fbc6334ceda641ff9ce6c6d104a82e33",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "WOCommentMatchRegex(frmWOComment.txtCommentEdit.text);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

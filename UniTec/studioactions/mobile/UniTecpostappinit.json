@@ -1,0 +1,16 @@
+{
+    "UniTecpostappinit": {
+        "id": "UniTecpostappinit",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "params",
+            "value": "params"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_postappinit_798076850822901241",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//TAG.CodePreviewController.addAsAppMenuItem(\"menuCodePreview\")\n atAppInit();"
+        }]
+    }
+}

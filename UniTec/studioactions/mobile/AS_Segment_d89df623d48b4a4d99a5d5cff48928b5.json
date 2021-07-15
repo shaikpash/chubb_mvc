@@ -1,0 +1,25 @@
+{
+    "AS_Segment_d89df623d48b4a4d99a5d5cff48928b5": {
+        "id": "AS_Segment_d89df623d48b4a4d99a5d5cff48928b5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "sectionNumber",
+            "value": "sectionNumber"
+        }, {
+            "name": "rowNumber",
+            "value": "rowNumber"
+        }, {
+            "name": "selectedState",
+            "value": "selectedState"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_dd4210730a244b2ab88ace8008486545",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "taskOverview.onSegRelatedProductsRowClick();"
+        }]
+    }
+}

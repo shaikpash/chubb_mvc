@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368520651_btnLogin_onClick_seq0": {
+        "id": "p2kwiet168597368520651_btnLogin_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_915486850822901587",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "login.onBtnLoginClick();"
+        }]
+    }
+}

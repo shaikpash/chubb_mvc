@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_placeholder_": "",
+    "_skin_": "s30b9082c8464f15a028101129b145bf",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "35%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s96fef49ee3545938fee5359fa884ad4",
+    "id": "CopytxtBatchSize0ed0bd8043ade41",
+    "ide_onDone": "AS_TextField_j4261a32fa5e4e3ba12ca3d693faa2dd",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "b90fd4d2afb844a0a4d01460a4882abc",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "Copyhbox0d971a7cbff554a",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "sc5d62df433242e5a16305b25536f24c",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

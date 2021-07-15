@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        3,
+        0,
+        3,
+        0
+    ],
+    "_skin_": "sb85e1b575814faab7b88c3ff4d92f7e",
+    "_text_": "Mot de passe perdu",
+    "_top_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s6415085874241ec8b3947420bfabbba",
+    "id": "LostpwdBtn",
+    "ide_onClick": "AS_Button_e5dba362507b4616afb8ab6d5b6977db",
+    "info": null,
+    "isvisible": true,
+    "kuid": "h5a76fec23194e41969a0f5ecb104853",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "FlexContainer0h58c1846c38c45",
+    "pf": "frmLogin",
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,26 @@
+{
+    "AS_TextField_a3ef3a0a50bf44f680f753dfcf6a9025": {
+        "id": "AS_TextField_a3ef3a0a50bf44f680f753dfcf6a9025",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521470"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jf6ca300509849e880f40cd598678582",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "workOrderOverview.changeSecondTechnicianName(this.text);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

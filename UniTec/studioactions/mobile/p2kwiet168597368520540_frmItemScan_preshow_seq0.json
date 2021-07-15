@@ -1,0 +1,19 @@
+{
+    "p2kwiet168597368520540_frmItemScan_preshow_seq0": {
+        "id": "p2kwiet168597368520540_frmItemScan_preshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_preshow_579856850822907709",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "itemScan.preShow();\n navigationModel.push();"
+        }]
+    }
+}

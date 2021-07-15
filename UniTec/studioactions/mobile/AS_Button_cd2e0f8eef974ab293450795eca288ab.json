@@ -1,0 +1,16 @@
+{
+    "AS_Button_cd2e0f8eef974ab293450795eca288ab": {
+        "id": "AS_Button_cd2e0f8eef974ab293450795eca288ab",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a6d7e78169bc43cf8c729d01953c2329",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "questionnaireDisplay.onAnswerTextBoxEdit();"
+        }]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "p2kwiet168597368519822_e122PanningHebdomadaire_preshow_seq0": {
+        "id": "p2kwiet168597368519822_e122PanningHebdomadaire_preshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_preshow_919316850822907009",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "on_weeklyPlanning_open",
+            "display": "on_weeklyPlanning_open",
+            "inputparams": [],
+            "source": "module"
+        }, {
+            "id": "expression_preshow_29066850822908495",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "navigationModel.push();"
+        }]
+    }
+}

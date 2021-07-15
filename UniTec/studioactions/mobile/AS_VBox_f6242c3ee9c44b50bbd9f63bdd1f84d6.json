@@ -1,0 +1,21 @@
+{
+    "AS_VBox_f6242c3ee9c44b50bbd9f63bdd1f84d6": {
+        "id": "AS_VBox_f6242c3ee9c44b50bbd9f63bdd1f84d6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520227"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b87fb1ddca7245f8b9b1bd2bb4637247",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "home.onPlayClick();"
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_TextArea_g94fbd24185c436392124bc879adbc35": {
+        "id": "AS_TextArea_g94fbd24185c436392124bc879adbc35",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTextChange_j3ce4e2f24f0411b8a84add9a6cc9040",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "WOResolveMatchRegex(frmWOResolve.txtCommentEdit.text);",
+            "callbackType": null
+        }]
+    }
+}

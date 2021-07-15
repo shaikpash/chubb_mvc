@@ -1,0 +1,16 @@
+{
+    "AS_ComboBox_fdb37a3650ec4f9db3d4dcb86b4f895c": {
+        "id": "AS_ComboBox_fdb37a3650ec4f9db3d4dcb86b4f895c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSelection_e3e78c713f8c47c280a5aded43f27a39",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "summaryService.onDiscountSelection(eventobject.selectedKeyValue[1]);"
+        }]
+    }
+}

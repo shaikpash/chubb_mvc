@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368520702_cbxDiscount_onSelection_seq0": {
+        "id": "p2kwiet168597368520702_cbxDiscount_onSelection_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onSelection_47423685082290724",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "partialQuotationSummary.onDiscountSelection(eventobject.selectedKeyValue[1]);"
+        }]
+    }
+}

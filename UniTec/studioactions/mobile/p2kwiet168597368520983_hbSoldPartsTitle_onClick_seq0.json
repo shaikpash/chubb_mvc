@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368520983_hbSoldPartsTitle_onClick_seq0": {
+        "id": "p2kwiet168597368520983_hbSoldPartsTitle_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_2103568508229065",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "summaryService.toggleVisibility(\n frmSummaryServiceInstallChubb.tabPane.segSoldParts,\n frmSummaryServiceInstallChubb.tabPane.imgSoldPartsExp);"
+        }]
+    }
+}

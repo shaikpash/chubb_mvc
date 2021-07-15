@@ -1,0 +1,22 @@
+{
+    "p2kwiet168597368520118_segSentOrders_onRowClick_seq0": {
+        "id": "p2kwiet168597368520118_segSentOrders_onRowClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "sectionNumber",
+            "value": "sectionNumber"
+        }, {
+            "name": "rowNumber",
+            "value": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onRowClick_960356850822904062",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//equipmentOrderOverview.onOrderClick( rowNumber , 0);\n \n equipmentOrderOverview.sentOrderClicked(rowNumber);"
+        }]
+    }
+}

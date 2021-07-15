@@ -1,0 +1,26 @@
+{
+    "AS_TextField_hc53fe4ce06a4c218aa2ed9dd5a41f5b": {
+        "id": "AS_TextField_hc53fe4ce06a4c218aa2ed9dd5a41f5b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "type": "popups",
+            "platform": "",
+            "KUID": "ac6f5bd8a601404fa7cf5553be38670d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__abe6098d6183460188c142c2ede70099",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "app_parameters.sync.networkTimeOut = eventobject.text;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

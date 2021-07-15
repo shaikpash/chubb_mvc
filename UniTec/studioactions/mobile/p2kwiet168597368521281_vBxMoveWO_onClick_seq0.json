@@ -1,0 +1,19 @@
+{
+    "p2kwiet168597368521281_vBxMoveWO_onClick_seq0": {
+        "id": "p2kwiet168597368521281_vBxMoveWO_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "context",
+            "value": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_342746850822901539",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "woGroupingDisplay.onMoveWorkOrderClick( context.rowIndex );"
+        }]
+    }
+}

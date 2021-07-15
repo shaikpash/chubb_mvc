@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368521608_vboxEditContact_onClick_seq0": {
+        "id": "p2kwiet168597368521608_vboxEditContact_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_937616850822909133",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "WOValidationSignature.contactEdit();"
+        }]
+    }
+}

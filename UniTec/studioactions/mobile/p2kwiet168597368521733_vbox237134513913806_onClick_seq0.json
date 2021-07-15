@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368521733_vbox237134513913806_onClick_seq0": {
+        "id": "p2kwiet168597368521733_vbox237134513913806_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_123756850822908287",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "popEquLineEdit.dismiss();"
+        }]
+    }
+}

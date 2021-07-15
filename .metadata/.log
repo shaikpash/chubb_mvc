@@ -1,0 +1,822 @@
+!SESSION 2021-07-15 11:25:12.694 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -perspective com.pat.tool.keditor.perspective.KonyPerspective -application org.eclipse.ui.ide.workbench -product com.kony.ide.paas.branding.studio
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.pat.tool.keditor.perspective.KonyPerspective -application org.eclipse.ui.ide.workbench -product com.kony.ide.paas.branding.studio
+
+!ENTRY org.eclipse.ui 2 0 2021-07-15 11:25:48.143
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-15 11:25:48.143
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='com.pat.tool.keditor', id='com.pat.tool.keditor.cleanAndBuildCommand'
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-15 11:25:48.143
+!MESSAGE Cannot bind to an undefined command: plug-in='com.pat.tool.keditor', id='com.pat.tool.keditor.applicationpublish'
+
+!ENTRY com.kony.ide.paas.branding 1 0 2021-07-15 11:25:49.606
+!MESSAGE Time taken for loading Studio plugin: 1395
+
+!ENTRY com.kony.ide.paas.branding 1 0 2021-07-15 11:25:52.310
+!MESSAGE Time taken for loading node plugins: 2703
+
+!ENTRY org.eclipse.ui 4 4 2021-07-15 11:25:56.822
+!MESSAGE Conflicting handlers for com.pat.tool.keditor.command.appviewer: {com.kony.studio.menus.handlers.HelpEventHandler} vs {com.kony.studio.menus.handlers.HelpEventHandler}
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-15 11:26:23.804
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-15 11:26:23.805
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\shaik.pash'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 0 2021-07-15 11:26:32.866
+!MESSAGE While loading class "com.pat.tool.keditor.perspective.KonyPerspective", thread "Thread[main,6,main]" timed out waiting (5003ms) for thread "Thread[Thread-6,5,main]" to finish starting bundle "com.pat.tool.keditor_8.4.134.v202105312031 [504]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "com.pat.tool.keditor.perspective.KonyPerspective" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/com.pat.tool.keditor_8.4.134.v202105312031.jar" by thread "Thread-6".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:478)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:109)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.registry.PerspectiveDescriptor.createFactory(PerspectiveDescriptor.java:74)
+	at org.eclipse.ui.internal.WorkbenchPage.setPerspective(WorkbenchPage.java:3906)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2875)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2815)
+	at com.kony.ide.paas.branding.KonyStudioStartup$1.run(Unknown Source)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 52 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:478)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:109)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.registry.PerspectiveDescriptor.createFactory(PerspectiveDescriptor.java:74)
+	at org.eclipse.ui.internal.WorkbenchPage.setPerspective(WorkbenchPage.java:3906)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2875)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2815)
+	at com.kony.ide.paas.branding.KonyStudioStartup$1.run(Unknown Source)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:34.394
+!MESSAGE Found installation dir: D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:36.113
+!MESSAGE Found installation dir: D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:36.115
+!MESSAGE Found installation dir: D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:36.164
+!MESSAGE Both are same.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:36.166
+!MESSAGE Found installation dir: D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:36.170
+!MESSAGE Found installation dir: D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 2 0 2021-07-15 11:26:36.198
+!MESSAGE Unable to find defaultemumetadata.json file from D:/chubb_mvc\_ios\defaultemulator\defaultemumetadata.json location.
+
+!ENTRY com.pat.tool.keditor 2 0 2021-07-15 11:26:36.199
+!MESSAGE Unable to get target versions of the mac machine as file 'iOSPropsUnderVisualizer.json' not found.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:36.206
+!MESSAGE Eclipse opened time: Jul 15, 2021 11:26 AM
+
+!ENTRY com.pat.tool.keditor 2 0 2021-07-15 11:26:36.376
+!MESSAGE blackberry_50 key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2021-07-15 11:26:36.378
+!MESSAGE blackberry_60 key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2021-07-15 11:26:36.379
+!MESSAGE blackberry_70 key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2021-07-15 11:26:36.380
+!MESSAGE windows_phone key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2021-07-15 11:26:36.381
+!MESSAGE enableMetrics key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:37.121
+!MESSAGE PLUGIN DETAILS: com.kony.windows:8.4.129.v202103121404::true
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:37.122
+!MESSAGE PLUGIN DETAILS: com.pat.j2me:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:37.123
+!MESSAGE PLUGIN DETAILS: com.kony.bb10:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:37.123
+!MESSAGE PLUGIN DETAILS: com.pat.winmobile:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:37.755
+!MESSAGE PLUGIN DETAILS: com.kony.windowsphone8:8.4.129.v202103121824::true
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:37.756
+!MESSAGE PLUGIN DETAILS: com.kony.windowsphone8:8.4.129.v202103121824::true
+
+!ENTRY org.eclipse.osgi 2 0 2021-07-15 11:26:37.885
+!MESSAGE While loading class "com.kony.studio.browser.VisualizerBrowserView", thread "Thread[main,6,main]" timed out waiting (5014ms) for thread "Thread[Thread-6,5,main]" to finish starting bundle "com.pat.tool.keditor_8.4.134.v202105312031 [504]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "com.kony.studio.browser.VisualizerBrowserView" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/com.pat.tool.keditor_8.4.134.v202105312031.jar" by thread "Thread-6".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:478)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:109)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.pat.tool.keditor.perspective.KonyPerspective.createInitialLayout(KonyPerspective.java:41)
+	at org.eclipse.ui.internal.WorkbenchPage.setPerspective(WorkbenchPage.java:3909)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2875)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2815)
+	at com.kony.ide.paas.branding.KonyStudioStartup$1.run(Unknown Source)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 45 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:478)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:109)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.pat.tool.keditor.perspective.KonyPerspective.createInitialLayout(KonyPerspective.java:41)
+	at org.eclipse.ui.internal.WorkbenchPage.setPerspective(WorkbenchPage.java:3909)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2875)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2815)
+	at com.kony.ide.paas.branding.KonyStudioStartup$1.run(Unknown Source)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:38.464
+!MESSAGE PLUGIN DETAILS: com.kony.windows8:8.4.129.v202103121804::true
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:39.473
+!MESSAGE PLUGIN DETAILS: com.kony.windows10:8.4.129.v202103121320::true
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:39.474
+!MESSAGE PLUGIN DETAILS: com.pat.winmobile6x:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:39.560
+!MESSAGE PLUGIN DETAILS: com.pat.android:8.4.134.v202105281022::true
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:39.804
+!MESSAGE PLUGIN DETAILS: com.pat.tabrcandroid:8.4.134.v202105281022::true
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:39.805
+!MESSAGE PLUGIN DETAILS: com.kony.nativecodegen:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:39.948
+!MESSAGE PLUGIN DETAILS: com.kony.spa:8.4.129.v202103101211::true
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:40.078
+!MESSAGE PLUGIN DETAILS: com.kony.desktopweb:8.4.129.v202103101003::true
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:40.256
+!MESSAGE PLUGIN DETAILS: com.kony.webcommons:8.4.129.202103121224::true
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:40.693
+!MESSAGE PLUGIN DETAILS: com.kony.ios:8.4.134.v202105312044::true
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:40.694
+!MESSAGE USER LOCATION: file:/C:/Users/shaik.pash/user/
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:40.695
+!MESSAGE IDE BUNDLE LOCATION: /D:/KonyVisualizerEnterprise84280new/Kony_Visualizer_Enterprise/configuration/org.eclipse.osgi/bundles/504/1/.cp/
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:40.827
+!MESSAGE 'com.kony.help' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:40.828
+!MESSAGE 'com.kony.nativecodegen' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:41.526
+!MESSAGE 'com.kony.cloudtc' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:41.656
+!MESSAGE 'com.kony.studio.sky' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:42.121
+!MESSAGE 'com.kony.studio.viz.chrome.mac64' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:42.133
+!MESSAGE 'com.kony.studio.viz.core.mac64' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:42.135
+!MESSAGE 'com.kony.studio.viz.nodejs.mac64' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:42.403
+!MESSAGE 'com.pat.j2me' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:42.405
+!MESSAGE 'com.kony.bb10' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:42.405
+!MESSAGE 'com.pat.winmobile' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:42.621
+!MESSAGE 'com.pat.winmobile6x' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:42.622
+!MESSAGE 'com.pat.brew' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:42.623
+!MESSAGE 'com.pat.palm' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:42.703
+!MESSAGE 'com.pat.playbook' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:42.786
+!MESSAGE 'com.pat.qt' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:42.787
+!MESSAGE 'com.pat.andcodeinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:42.789
+!MESSAGE 'com.pat.bbcodeinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:42.790
+!MESSAGE 'com.pat.iospolicyinjection' bundle is not installed.
+
+!ENTRY org.eclipse.osgi 2 0 2021-07-15 11:26:42.901
+!MESSAGE While loading class "com.kony.studio.browser.services.VizStudioServiceRegistry", thread "Thread[main,6,main]" timed out waiting (5015ms) for thread "Thread[Thread-6,5,main]" to finish starting bundle "com.pat.tool.keditor_8.4.134.v202105312031 [504]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "com.kony.studio.browser.services.VizStudioServiceRegistry" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/com.pat.tool.keditor_8.4.134.v202105312031.jar" by thread "Thread-6".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:478)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:109)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.pat.tool.keditor.perspective.KonyPerspective.createInitialLayout(KonyPerspective.java:41)
+	at org.eclipse.ui.internal.WorkbenchPage.setPerspective(WorkbenchPage.java:3909)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2875)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2815)
+	at com.kony.ide.paas.branding.KonyStudioStartup$1.run(Unknown Source)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 45 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:478)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:109)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.pat.tool.keditor.perspective.KonyPerspective.createInitialLayout(KonyPerspective.java:41)
+	at org.eclipse.ui.internal.WorkbenchPage.setPerspective(WorkbenchPage.java:3909)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2875)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2815)
+	at com.kony.ide.paas.branding.KonyStudioStartup$1.run(Unknown Source)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:43.860
+!MESSAGE 'tk.eclipse.plugin.htmleditor' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:43.861
+!MESSAGE 'com.kony.video' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:43.864
+!MESSAGE Plugin Details are stored successfully at D:\chubb_mvc\konyplugins.xml.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:46.277
+!MESSAGE Found installation dir: D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise
+
+!ENTRY org.eclipse.osgi 2 0 2021-07-15 11:26:47.909
+!MESSAGE While loading class "com.kony.studio.browser.VisualizerBrowserView$2", thread "Thread[main,6,main]" timed out waiting (5006ms) for thread "Thread[Thread-6,5,main]" to finish starting bundle "com.pat.tool.keditor_8.4.134.v202105312031 [504]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "com.kony.studio.browser.VisualizerBrowserView$2" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/com.pat.tool.keditor_8.4.134.v202105312031.jar" by thread "Thread-6".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:478)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:109)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.pat.tool.keditor.perspective.KonyPerspective.createInitialLayout(KonyPerspective.java:41)
+	at org.eclipse.ui.internal.WorkbenchPage.setPerspective(WorkbenchPage.java:3909)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2875)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2815)
+	at com.kony.ide.paas.branding.KonyStudioStartup$1.run(Unknown Source)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 45 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:478)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:109)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.pat.tool.keditor.perspective.KonyPerspective.createInitialLayout(KonyPerspective.java:41)
+	at org.eclipse.ui.internal.WorkbenchPage.setPerspective(WorkbenchPage.java:3909)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2875)
+	at org.eclipse.ui.internal.Workbench.showPerspective(Workbench.java:2815)
+	at com.kony.ide.paas.branding.KonyStudioStartup$1.run(Unknown Source)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:56.362
+!MESSAGE Node server shut down successfull.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:26:56.364
+!MESSAGE workspace location: D:\chubb_mvc
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:01.342
+!MESSAGE Node location: D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\492\1\.cp\konywebstudio\nw\nw_win\node.exe
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:01.343
+!MESSAGE Node start location: D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\492\1\.cp\nw\node_start.bat
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:01.344
+!MESSAGE Starting node server...
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:01.345
+!MESSAGE Found installation dir: D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:25.462
+!MESSAGE Executing node startup command: D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\492\1\.cp\konywebstudio\nw\nw_win\node.exe app.js console D:\chubb_mvc C:\Users\shaik.pash\Kony Visualizer D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\492\1\.cp\konywebstudio\nw\nw_win\node.exe --NODE_APP_INSTANCE=vide --NODE_CONFIG={\"testRecorderWebSocketPort\":9111,\"transfer\":{\"codeanalysis\":{\"serverport\":5230}},\"codeanalysis\":{\"serverport\":5230},\"autonomousBot\":{\"serverport\":4210},\"expressServerPort\":5000,\"functionalPreviewPort\":8888,\"monitorAssets\":true,\"vizClientConfig\":{\"enableModelDriven\":false,\"monitorAssets\":true,\"enableCordovaDevelopment\":true,\"autonomousIQServerPort\":4210,\"enableAppGroups\":true,\"isHeadlessBuild\":false,\"enableToolTips\":true,\"isVizSigned\":true,\"testRecorderWebSocketPort\":9111,\"enableNativeApi\":true,\"enableAppWizards\":true,\"enableOrientation\":true,\"enableMarketplace\":true,\"enableMVCExtensions\":false,\"enableIQChat\":null},\"isHeadlessBuild\":false,\"addonServerPort\":9095,\"isVizSigned\":true} 
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:25.478
+!MESSAGE Time for node to execute : 13msec
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:25.479
+!MESSAGE ***Started watch for node server...
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:27.328
+!MESSAGE [node console]Loading[config]..D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\492\1\.cp\konywebstudio\config\default.js
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:27.349
+!MESSAGE [node console]Workspace dir :: D:\chubb_mvc
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:27.350
+!MESSAGE [node error]Error while retrieving Visualizer metadata at C:\Users\shaik.pash\Kony Visualizer\vizdata\.metadata :: Error: ENOENT: no such file or directory, open 'C:\Users\shaik.pash\Kony Visualizer\vizdata\.metadata'
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:27.357
+!MESSAGE [node console]Couldn't find java home.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:27.362
+!MESSAGE [node console]Proxy details not found. Setting useProxy to false.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:36.303
+!MESSAGE [node console]GitDir: C:\Users\shaik.pash\Kony Visualizer\vizdata\.konyvizgit
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:37.795
+!MESSAGE [node console]Viz running in EMBEDDED mode
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.345
+!MESSAGE [node console][36m[2021-07-15 11:27:38.342] [DEBUG] vide - [39mIn pullWelcomeScreen ...
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.435
+!MESSAGE [node console][36m[2021-07-15 11:27:38.435] [DEBUG] vide - [39mDownload welcome screen: http://download.kony.com/installer/visualizer/WelcomeScreen8400/enterprise-WelcomeScreen8400.zip
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.440
+!MESSAGE [node console][36m[2021-07-15 11:27:38.440] [DEBUG] vide - [39mRequesting File from http://download.kony.com/installer/visualizer/WelcomeScreen8400/enterprise-WelcomeScreen8400.zip
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.454
+!MESSAGE [node console][36m[2021-07-15 11:27:38.453] [DEBUG] vide - [39mDevice detection :: Spawning child process : D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\492\1\.cp\konywebstudio\nw\nw_win\node.exe D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\492\1\.cp\konywebstudio\lib\usbDeviceDetection\deviceDetection.js
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.461
+!MESSAGE [node console][32m[2021-07-15 11:27:38.460] [INFO] vide - [39mWeb App .webapps
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.586
+!MESSAGE [node console][36m[2021-07-15 11:27:38.585] [DEBUG] vide - [39mEventEmitted: proxyServiceStart200[not in use]
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.587
+!MESSAGE [node console][36m[2021-07-15 11:27:38.585] [DEBUG] vide - [39mEventEmitted: authServiceStart200[...]
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.589
+!MESSAGE [node console][32m[2021-07-15 11:27:38.586] [INFO] vide - [39mRequest consumer Id
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.630
+!MESSAGE [node console][32m[2021-07-15 11:27:38.629] [INFO] vide - [39mResource Service started on port 5095
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.631
+!MESSAGE [node console][36m[2021-07-15 11:27:38.629] [DEBUG] vide - [39mEventEmitted: resourceServiceStart200[5095]
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.633
+!MESSAGE [node console][32m[2021-07-15 11:27:38.629] [INFO] vide - [39mFunctional Preview Server started on port 8888
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.634
+!MESSAGE [node console][36m[2021-07-15 11:27:38.629] [DEBUG] vide - [39mEventEmitted: functionalPreviewStart200[8888]
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.636
+!MESSAGE [node console][32m[2021-07-15 11:27:38.629] [INFO] vide - [39mNotifier Service started on port 5099
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.638
+!MESSAGE [node console][36m[2021-07-15 11:27:38.629] [DEBUG] vide - [39mEventEmitted: kvNotifierStart200[5099]
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.639
+!MESSAGE [node console][36m[2021-07-15 11:27:38.629] [DEBUG] vide - [39mAddon server listening on port 9095
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.641
+!MESSAGE [node console][36m[2021-07-15 11:27:38.629] [DEBUG] vide - [39mAddon server is up!!
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.642
+!MESSAGE [node console][36m[2021-07-15 11:27:38.630] [DEBUG] vide - [39mEventEmitted: kvAddonStart200[9095]
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:38.691
+!MESSAGE [node console][31m[2021-07-15 11:27:38.690] [ERROR] vide - [39mError downloading welcome screen:  Can't download zip file. Response code: 404
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:39.974
+!MESSAGE [node console]Loading[config]..D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\492\1\.cp\konywebstudio\config\default.js
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:39.977
+!MESSAGE [node error]Error while retrieving Visualizer metadata at C:\Users\shaik.pash\Kony Visualizer\vizdata\.metadata :: Error: ENOENT: no such file or directory, open 'C:\Users\shaik.pash\Kony Visualizer\vizdata\.metadata'
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:39.978
+!MESSAGE [node console]Workspace dir :: konyworkspace
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:39.986
+!MESSAGE [node console]Couldn't find java home.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:40.014
+!MESSAGE [node console][32m[2021-07-15 11:27:40.008] [INFO] ~~~~ - [39mUSB Detection :: Device monitoring started.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:40.572
+!MESSAGE Node Server state :true
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:41.102
+!MESSAGE [node error](node:13260) [DEP0106] DeprecationWarning: crypto.createCipher is deprecated.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:41.145
+!MESSAGE javaLibPath->D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/KonyVisualizerEnterprise84280new/Kony_Visualizer_Enterprise/jre/bin/server;D:/KonyVisualizerEnterprise84280new/Kony_Visualizer_Enterprise/jre/bin;D:/KonyVisualizerEnterprise84280new/Kony_Visualizer_Enterprise/jre/lib/amd64;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;D:\KonyVisualizerEnterprise8.4.28.0\Java\jdk\bin;D:\KonyVisualizerEnterprise8.4.28.0\Java\jdk\jre\bin;D:\android-sdk\platform-tools;D:\android-sdk\tools;C:\Program Files\nodejs\;D:\src\flutter\bin;C:\Users\shaik.pash\AppData\Local\Microsoft\WindowsApps;D:\KonyVisualizerEnterprise8.4.28.0\Ant\bin;D:\KonyVisualizerEnterprise8.4.28.0\Java\jdk\bin;C:\Users\shaik.pash\AppData\Local\GitHubDesktop\bin;D:\KonyVisualizerEnterprise8.4.102.0\Ant\bin;D:\KonyVisualizerEnterprise8.3.0.0\Ant\bin;C:\Users\shaik.pash\AppData\Roaming\npm;C:\Users\shaik.pash\AppData\Local\Programs\Microsoft VS Code\bin;D:\src\flutter\bin;C:\Users\shaik.pash\AppData\Local\Microsoft\WindowsApps;D:\KonyVisualizerEnterprise84280new\Ant\bin;D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise;;.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:41.146
+!MESSAGE DYLD_LIBRARY_PATH(Only in Mac)->null
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:41.148
+!MESSAGE JAVACEF_PATH->null
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:41.149
+!MESSAGE Invoking windows configure libs
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:41.208
+!MESSAGE Chrome lib location->D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\491\1\.cp\win64_build\third_party\chromium_loader
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:41.209
+!MESSAGE CEF lib location->D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\491\1\.cp\win64_build\third_party\cef_runtime\win64
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:41.211
+!MESSAGE java.library.path->D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\491\1\.cp\win64_build\third_party\chromium_loader;D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\491\1\.cp\win64_build\third_party\cef_runtime\win64
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:41.214
+!MESSAGE fieldSysPath->private static java.lang.String[] java.lang.ClassLoader.sys_paths
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:41.216
+!MESSAGE java.library.path configured
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:41.217
+!MESSAGE Invoking chromebrowser.embed()
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:45.616
+!MESSAGE Invoking vide init()
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:27:45.619
+!MESSAGE Invoking vide initiated
+
+!ENTRY org.eclipse.ui 4 0 2021-07-15 11:27:47.890
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4397)
+	at org.eclipse.swt.SWT.error(SWT.java:4312)
+	at org.eclipse.swt.SWT.error(SWT.java:4283)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:472)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:344)
+	at org.eclipse.swt.widgets.Text.getText(Text.java:1345)
+	at org.eclipse.ui.internal.quickaccess.QuickAccessContents$4$1.run(QuickAccessContents.java:550)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4271)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3358)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:28:09.007
+!MESSAGE Found installation dir: D:\KonyVisualizerEnterprise84280new\Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:29:49.145
+!MESSAGE [node error]No Instance(s) Available.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:29:49.199
+!MESSAGE [node error]
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:29:50.404
+!MESSAGE [node console]Initial scan complete. Ready for changes.
+
+!ENTRY com.pat.tool.keditor 1 0 2021-07-15 11:30:15.375
+!MESSAGE konyplugins.xml is copied to D:\chubb_mvc\UniTec successfully.

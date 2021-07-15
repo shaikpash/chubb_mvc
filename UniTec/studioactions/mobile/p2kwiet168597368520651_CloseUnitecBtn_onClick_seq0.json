@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368520651_CloseUnitecBtn_onClick_seq0": {
+        "id": "p2kwiet168597368520651_CloseUnitecBtn_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_444786850822904711",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "login.onBtnCloseClick();"
+        }]
+    }
+}

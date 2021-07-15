@@ -1,0 +1,17 @@
+{
+    "AS_Button_fae94b8070874199bf1e31e3966c9693": {
+        "id": "AS_Button_fae94b8070874199bf1e31e3966c9693",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "contextObj": {
+            "type": "popups",
+            "platform": null,
+            "KUID": "i71a6871cd18400a9744a47bd6eb0316"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

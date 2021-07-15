@@ -1,0 +1,26 @@
+{
+    "AS_Button_a74aeed4c2fb495eb90a25751de0d534": {
+        "id": "AS_Button_a74aeed4c2fb495eb90a25751de0d534",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "type": "templates",
+            "platform": "",
+            "KUID": "p2kwiet168597368521893"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j2080f74213144cf8d745f0ebc168f12",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(app_parameters.lifetime.switchWorkOrder == null){\n  workOrders.onBtnLinkedClick(context);\n}\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

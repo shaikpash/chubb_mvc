@@ -1,0 +1,27 @@
+{
+    "AS_VBox_a09d8990f5ea46168570b7634a4c70a3": {
+        "id": "AS_VBox_a09d8990f5ea46168570b7634a4c70a3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_f161d1a806ee4357bda70402f31c283f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "workOrder = workOrderModel.findWorkOrderByDoco('20001008');\n workOrderOverview.tab.current = workOrderOverview.tab.info;\n frmWorkOrderOverview.ibtTabPane.activeTabs = [0];\n ibt_PlanificationNeedUpdate = true;"
+        }, {
+            "id": "NAVIGATE_TO_FORM__ide_onClick_cf1aed6dcea14a9aa92014b7077d3ee5",
+            "type": "NAVIGATE_TO_FORM",
+            "formKUID": "p2kwiet168597368520080",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"\",\n        \"widgetId\": \"\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

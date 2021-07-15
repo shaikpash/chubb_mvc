@@ -1,0 +1,19 @@
+{
+    "p2kwiet168597368519822_weekBtnNext_onClick_seq0": {
+        "id": "p2kwiet168597368519822_weekBtnNext_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_387766850822908921",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "week_OnNext",
+            "display": "week_OnNext",
+            "inputparams": [],
+            "source": "module"
+        }]
+    }
+}

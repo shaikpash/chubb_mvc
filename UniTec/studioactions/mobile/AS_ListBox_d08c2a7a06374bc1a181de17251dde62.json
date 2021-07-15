@@ -1,0 +1,23 @@
+{
+    "AS_ListBox_d08c2a7a06374bc1a181de17251dde62": {
+        "id": "AS_ListBox_d08c2a7a06374bc1a181de17251dde62",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520421"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__gc8c7e46cb5c440b81ff878379920d1f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "inventoryAllocation.onCbxLocationSelection(eventobject.selectedKey);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

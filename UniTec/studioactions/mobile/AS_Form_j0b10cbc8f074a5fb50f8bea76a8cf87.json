@@ -1,0 +1,27 @@
+{
+    "AS_Form_j0b10cbc8f074a5fb50f8bea76a8cf87": {
+        "id": "AS_Form_j0b10cbc8f074a5fb50f8bea76a8cf87",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "e17ce193fc42432db85d3e5d0a59a9a4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onDeviceBack_aa9b03cef69c48319a3c76697d1b5e62",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onBackKeyPressed",
+            "display": "onBackKeyPressed",
+            "inputparams": [],
+            "source": "module"
+        }]
+    }
+}
