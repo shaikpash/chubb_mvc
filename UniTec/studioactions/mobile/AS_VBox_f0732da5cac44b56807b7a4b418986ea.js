@@ -1,1 +1,0 @@
-function AS_VBox_f0732da5cac44b56807b7a4b418986ea(eventobject) {}

@@ -1,3 +1,0 @@
-function p2kwiet168597368520540_frmItemScan_onhide_seq0(eventobject, neworientation) {
-    itemScan.onHide();
-}
