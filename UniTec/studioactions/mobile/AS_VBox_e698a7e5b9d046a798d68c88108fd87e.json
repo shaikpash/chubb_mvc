@@ -1,0 +1,23 @@
+{
+    "AS_VBox_e698a7e5b9d046a798d68c88108fd87e": {
+        "id": "AS_VBox_e698a7e5b9d046a798d68c88108fd87e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521548"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j11d33f42c2449fc93acdf61a0c2ac6a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "workOrders.onBtnFilterParamClick('workOrderNumber', frmWorkOrders.txtWorkOrderNumber);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

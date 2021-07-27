@@ -1,0 +1,17 @@
+{
+    "AS_Form_ff3e254471b14c9cad0ede1d7a9a6501": {
+        "id": "AS_Form_ff3e254471b14c9cad0ede1d7a9a6501",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521608"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

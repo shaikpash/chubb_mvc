@@ -1,0 +1,22 @@
+{
+    "p2kwiet168597368520809_frmSparePartAdd_WinPhone8_onDeviceBack_seq0": {
+        "id": "p2kwiet168597368520809_frmSparePartAdd_WinPhone8_onDeviceBack_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onDeviceBack_791766850822903428",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onBackKeyPressed",
+            "display": "onBackKeyPressed",
+            "inputparams": [],
+            "source": "module"
+        }]
+    }
+}

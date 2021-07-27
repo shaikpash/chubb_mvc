@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368521548_btnStatus_onClick_seq0": {
+        "id": "p2kwiet168597368521548_btnStatus_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_858726850822907568",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "workOrders.onBtnFilterParamClick('status', frmWorkOrders.txtStatus);"
+        }]
+    }
+}

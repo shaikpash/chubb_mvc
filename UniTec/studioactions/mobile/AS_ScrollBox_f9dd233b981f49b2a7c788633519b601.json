@@ -1,0 +1,24 @@
+{
+    "AS_ScrollBox_f9dd233b981f49b2a7c788633519b601": {
+        "id": "AS_ScrollBox_f9dd233b981f49b2a7c788633519b601",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "d38e65b27e0949c683f7d1981b784ee5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onPush_a4269059ca52413c960714ffab9ef65f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "day_onScrollEvent",
+            "display": "day_onScrollEvent",
+            "inputparams": [],
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "p2kwiet168597368520664_button2371345133941930_onClick_seq0": {
+        "id": "p2kwiet168597368520664_button2371345133941930_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_231536850822902483",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "login_confirmFirstLogin",
+            "display": "login_confirmFirstLogin",
+            "inputparams": [],
+            "source": "module"
+        }]
+    }
+}

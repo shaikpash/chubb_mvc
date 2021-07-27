@@ -1,0 +1,19 @@
+{
+    "AS_TextField_jf470b7658cf435cba2db50639bd006c": {
+        "id": "AS_TextField_jf470b7658cf435cba2db50639bd006c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onDone_bd375870581c4e18be4b642e9829e957",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "questionnaireDisplay.onAnswerTextBoxEdit();"
+        }]
+    }
+}

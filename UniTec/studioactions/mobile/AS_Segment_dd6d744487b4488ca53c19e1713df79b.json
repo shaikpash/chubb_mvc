@@ -1,0 +1,29 @@
+{
+    "AS_Segment_dd6d744487b4488ca53c19e1713df79b": {
+        "id": "AS_Segment_dd6d744487b4488ca53c19e1713df79b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521548"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b1ab16b82aff4564be00b4f447b8ebc1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "helloworkOrders.onWorkOrderSelection(rowNumber, eventobject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "p2kwiet168597368520851_tabPane_onTabClick_seq0": {
+        "id": "p2kwiet168597368520851_tabPane_onTabClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "currentindex",
+            "value": "currentindex"
+        }, {
+            "name": "isexpanded",
+            "value": "isexpanded"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onTabClick_563976850822901094",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "summaryService.tabChange();"
+        }]
+    }
+}

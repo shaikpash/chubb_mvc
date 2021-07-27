@@ -1,0 +1,25 @@
+{
+    "AS_TextField_b5bcd52f14004442adf48ba8154f9196": {
+        "id": "AS_TextField_b5bcd52f14004442adf48ba8154f9196",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "type": "popups",
+            "platform": "",
+            "KUID": "ac6f5bd8a601404fa7cf5553be38670d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onDone_e201b079a3624c339a3d2f3bb5583368",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "app_parameters.sync.imageScale = parseFloat(eventobject.text);",
+            "callbackType": null
+        }]
+    }
+}

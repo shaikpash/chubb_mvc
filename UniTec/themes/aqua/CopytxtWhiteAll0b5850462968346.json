@@ -1,0 +1,15 @@
+{
+  "applicableblockedUIWidget": "Button",
+  "background_color": "ffffff00",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "font_color": "ffffffff",
+  "font_size": 120,
+  "isDefaultSkin": false,
+  "isForked": false,
+  "kuid": "sadec5061f644b10bc3521b5b5bdd469",
+  "wType": "TextField"
+}

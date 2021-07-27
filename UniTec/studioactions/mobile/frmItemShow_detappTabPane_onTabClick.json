@@ -1,0 +1,29 @@
+{
+    "AS_TabPane_fb4c2476c0284a9da3e032137676d1bb": {
+        "id": "AS_TabPane_fb4c2476c0284a9da3e032137676d1bb",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmItemShow_detappTabPane_onTabClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "currentindex"
+        }, {
+            "datatype": "boolean",
+            "name": "isexpanded"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520588"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j1ff0dc90dc6480d95b11f7c5d1e1193",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(currentindex ==0){\n  frmItemShow.btnTabPrev.skin='skntabBtn';\n  frmItemShow.btnTabFirst.skin='sknTabBtnFoc';\n}\nelse{\n  frmItemShow.btnTabPrev.skin='sknTabBtnFoc';\n  frmItemShow.btnTabFirst.skin='skntabBtn';\n}",
+            "parentId": null
+        }]
+    }
+}

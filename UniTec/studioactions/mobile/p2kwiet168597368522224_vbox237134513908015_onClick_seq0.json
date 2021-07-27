@@ -1,0 +1,19 @@
+{
+    "p2kwiet168597368522224_vbox237134513908015_onClick_seq0": {
+        "id": "p2kwiet168597368522224_vbox237134513908015_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "context",
+            "value": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_411426850822901522",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "equipmentOrderWrite.onQuantityClick( context );"
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Button_e6f0be682e0042989156744f05c6a327": {
+        "id": "AS_Button_e6f0be682e0042989156744f05c6a327",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "contextObj": {
+            "type": "popups",
+            "platform": null,
+            "KUID": "i71a6871cd18400a9744a47bd6eb0316"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_a0a33088c208484e916a46eafb296cef",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "listChoiceOnAll",
+            "display": "listChoiceOnAll",
+            "inputparams": [],
+            "source": "module"
+        }]
+    }
+}

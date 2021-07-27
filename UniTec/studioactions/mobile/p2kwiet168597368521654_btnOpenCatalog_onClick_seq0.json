@@ -1,0 +1,29 @@
+{
+    "p2kwiet168597368521654_btnOpenCatalog_onClick_seq0": {
+        "id": "p2kwiet168597368521654_btnOpenCatalog_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__af5591b1c58c4e20a748a869b2c835b0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "taskOverview.openPopupExchange = true;\ntaskOverviewTC.showTCPopup = true;\n",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "navigation_onClick_910666850822905271",
+            "type": "NAVIGATE_TO_FORM",
+            "formKUID": "p2kwiet168597368520080",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"\",\n        \"widgetId\": \"\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

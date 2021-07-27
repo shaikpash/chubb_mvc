@@ -1,0 +1,19 @@
+{
+    "p2kwiet168597368522003_hbxStock_onClick_seq0": {
+        "id": "p2kwiet168597368522003_hbxStock_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "context",
+            "value": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_235906850822905293",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "articleSalesTasks.onBtnStockClick(context.sectionIndex,context.rowIndex,context);"
+        }]
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "42dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        1,
+        0,
+        1
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "s676df851ddc483788df98052145bcbd",
+    "_top_": {
+        "type": "string",
+        "value": "6dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "93%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "sdde6132c748431baf397a69c459c1db",
+    "groupcells": false,
+    "id": "countrycmb",
+    "ide_onSelection": "AS_ListBox_if9917da4d9a4324bb055e79c80f8009",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a3ac579fa550432d8226b7fde6dfd0be",
+    "masterdata": [
+        [
+            "+49",
+            "Allemagne (+49)"
+        ],
+        [
+            "+376",
+            "Andorre (+376)"
+        ],
+        [
+            "+32",
+            "Belgique (+32)"
+        ],
+        [
+            "+34",
+            "Espagne (+34)"
+        ],
+        [
+            "+33",
+            "France (+33)"
+        ],
+        [
+            "+39",
+            "Italie (+39)"
+        ],
+        [
+            "+352",
+            "Luxembourg (+352)"
+        ],
+        [
+            "+377",
+            "Monaco (+377)"
+        ],
+        [
+            "+31",
+            "pays-Bas (+31)"
+        ],
+        [
+            "+44",
+            "Royaume-Uni (+44)"
+        ],
+        [
+            "+41",
+            "Suisse et Campione d'Italia (+41)"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "vbox59228740996305",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "+33",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "+33",
+        "France (+33)"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

@@ -1,0 +1,78 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Mot de passe",
+    "_skin_": "see24133a0a34dd29bae84ff0c59e07e",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "keyboardActionLabel": 12
+        }
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s4bf38a3e80a474c9f1f08457140beb8",
+    "id": "PwdText",
+    "info": null,
+    "iphone": {
+        "containerHeightMode": 3,
+        "psp": {
+            "closeButtonText": "Ok",
+            "keyboardActionLabel": 1,
+            "showClearButton": true,
+            "showCloseButton": true,
+            "showProgressIndicator": true
+        }
+    },
+    "isvisible": true,
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "cf9f768f3b7d49ccb9fb3e232290b62c",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "CopyFlexContainer0ba6d0e695f1c45",
+    "pf": "frmLogin",
+    "securetextentry": true,
+    "showclearbutton": true,
+    "showoprogressindicator": true,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

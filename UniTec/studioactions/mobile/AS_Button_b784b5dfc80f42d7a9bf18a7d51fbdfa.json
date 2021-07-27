@@ -1,0 +1,23 @@
+{
+    "AS_Button_b784b5dfc80f42d7a9bf18a7d51fbdfa": {
+        "id": "AS_Button_b784b5dfc80f42d7a9bf18a7d51fbdfa",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "e99ae12aefba44c78a69e41758becaf0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d6ab6736a8f54ba3a700c81cfce425b0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "articleSalesConfirm.onClickhboxSign();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

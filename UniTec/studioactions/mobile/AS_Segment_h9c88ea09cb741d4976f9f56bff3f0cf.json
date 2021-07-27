@@ -1,0 +1,34 @@
+{
+    "AS_Segment_h9c88ea09cb741d4976f9f56bff3f0cf": {
+        "id": "AS_Segment_h9c88ea09cb741d4976f9f56bff3f0cf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368519822"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b34e61169c7841fc94a3faa453ef2cc8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "week_onDayClick",
+            "display": "week_onDayClick",
+            "inputparams": [{
+                "name": "dayNum",
+                "value": "6"
+            }],
+            "parentId": null,
+            "source": "module"
+        }]
+    }
+}

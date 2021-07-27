@@ -1,0 +1,19 @@
+{
+    "p2kwiet168597368521848_vbFeatures_onClick_seq0": {
+        "id": "p2kwiet168597368521848_vbFeatures_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "context",
+            "value": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_759276850822906715",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "catalog.onDisplayFeatures( context.sectionIndex );"
+        }]
+    }
+}

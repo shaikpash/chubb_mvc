@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368520997_segTaskDetails_onReachingEnd_seq0": {
+        "id": "p2kwiet168597368520997_segTaskDetails_onReachingEnd_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onReachingEnd_748796850822904906",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "taskDetail.onTaskDetailsReachingEnd();"
+        }]
+    }
+}

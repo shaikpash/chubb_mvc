@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368520893_hbPlannedTaskTitle_onClick_seq0": {
+        "id": "p2kwiet168597368520893_hbPlannedTaskTitle_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_188776850822902287",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "summaryService.toggleVisibility(\n frmSummaryServiceChubb.tabPane.segTaskDone,\n frmSummaryServiceChubb.tabPane.imgTaskDoneExp);"
+        }]
+    }
+}

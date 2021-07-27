@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" endpoint="default" groupType="" id="validateUser" passwordencrypted="false" security="public" type="javaConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="className" value="chubb.kony.mw.JService"/>
+        <config-param api-version="" appid="" name="methodName" value="validateUser"/>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+    </service-config>
+    <service-input passthrough="false">
+        <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="AN8" order="" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="2197963" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="pwd" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="Morel1234%" value="">
+            <accessType></accessType>
+        </param>
+    </service-input>
+    <service-output passthrough="false">
+        <dataset id="userData" order="" src="">
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="User_id" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="AD_Username" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Firstname" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Lastname" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Position" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="User_Employee_AN8" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Default_Q_type" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Default_Q_subtype" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Default_Chapter" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Quotation_Next_Value" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Customer_Next_Value" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="User_Password" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Security_Question_Id" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Security_Question_Answer" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="StatusFlag" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="SyncTimestamp" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Has_Access_Unitec" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Has_Access_Unicom" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="passwordDate" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="lastChangeDate" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="creationDate" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+                <accessType></accessType>
+            </param>
+        </dataset>
+        <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="message" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="opstatus" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="errmsg" order="" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="">
+            <accessType></accessType>
+        </param>
+    </service-output>
+</service>

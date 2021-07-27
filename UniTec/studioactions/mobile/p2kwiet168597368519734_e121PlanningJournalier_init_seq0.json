@@ -1,0 +1,22 @@
+{
+    "p2kwiet168597368519734_e121PlanningJournalier_init_seq0": {
+        "id": "p2kwiet168597368519734_e121PlanningJournalier_init_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_init_59486850822908128",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "on_dailyPlanning_init",
+            "display": "on_dailyPlanning_init",
+            "inputparams": [],
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Form_d96c9b456d69422b9d6b23fa39d76195": {
+        "id": "AS_Form_d96c9b456d69422b9d6b23fa39d76195",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "d7e818cf44074a86bf484d262b6ca12d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bcfcb613edab46a8bb7da448af318751",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "cameraOverlay.preshow();\nnavigationModel.push();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

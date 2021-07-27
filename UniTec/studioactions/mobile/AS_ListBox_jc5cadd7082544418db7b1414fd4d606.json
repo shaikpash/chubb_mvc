@@ -1,0 +1,23 @@
+{
+    "AS_ListBox_jc5cadd7082544418db7b1414fd4d606": {
+        "id": "AS_ListBox_jc5cadd7082544418db7b1414fd4d606",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520809"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d34eac1cd3084352aa8b48686e719968",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "sparePartAdd.onCbxSparePartsSelection();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

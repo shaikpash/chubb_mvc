@@ -1,0 +1,3 @@
+function AS_HBox_je48e89e21984b1e9405c14a6f2043cd(eventobject) {
+    summaryService.toggleVisibility(frmSummaryServiceInstallChubb.tabPane.segCurativeConsumption, frmSummaryServiceInstallChubb.tabPane.imgCurrativeParts);
+}

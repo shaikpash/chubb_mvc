@@ -1,0 +1,23 @@
+{
+    "AS_Image_b6f5e817a9754ed99f00def5540c3680": {
+        "id": "AS_Image_b6f5e817a9754ed99f00def5540c3680",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "imagesrc"
+        }, {
+            "datatype": "boolean",
+            "name": "issuccess"
+        }],
+        "contextObj": {
+            "type": "templates",
+            "platform": "",
+            "KUID": "p2kwiet168597368521099"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

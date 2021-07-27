@@ -1,0 +1,22 @@
+{
+  "applicableblockedUIWidget": "Button",
+  "background_color": "ffffffff",
+  "background_style": "vg",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_radius": 0,
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "isForked": false,
+  "kuid": "sac73c7da2bb47af8e6dee9f5476b3dd",
+  "shadow": {
+    "br": 0,
+    "color": "000000",
+    "inner": true,
+    "x": 0,
+    "y": 0
+  },
+  "wType": "Form"
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Button_iddf55c9e9434eeab6ab2365b4aaac94": {
+        "id": "AS_Button_iddf55c9e9434eeab6ab2365b4aaac94",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521608"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__eb0ed44efaec4a7fa5c759f0ca6d7e67",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "WOValidationSignature.onClickhboxSign();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

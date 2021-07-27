@@ -1,0 +1,28 @@
+{
+    "AS_Segment_b0e2c7a48df744d7ac881987dbbef32b": {
+        "id": "AS_Segment_b0e2c7a48df744d7ac881987dbbef32b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521470"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_c957231033bf4623be51389d01c98967",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\n      var UIPasteboard = objc.import(\"UIPasteboard\");\n      var pasteBoard = UIPasteboard.generalPasteboard();\n      pasteBoard.string = frmWorkOrderOverview.ibtConsSegBT.selectedItems[0].comment;\n\n\npopupModel.showPopError(\"Consigne copiée dans le presse papier\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_HBox_h69c86fb4c174088a174899a1b745bc9": {
+        "id": "AS_HBox_h69c86fb4c174088a174899a1b745bc9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521548"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

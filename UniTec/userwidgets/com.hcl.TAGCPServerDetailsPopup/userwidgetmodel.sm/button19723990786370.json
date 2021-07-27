@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        8,
+        0,
+        8
+    ],
+    "_skin_": "se579a0bbea042dfb462fba540f585dd",
+    "_text_": "Update Code",
+    "_top_": {
+        "type": "string",
+        "value": "236dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "displayText": true
+    },
+    "displaytext": true,
+    "focusskin": "s06d2256dcf84b26951b2930b2fb4c77",
+    "id": "button19723990786370",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "hd42fe4801dd464da1f0ba90e484baee",
+    "name": "kony.ui.Button",
+    "parent": "vbox19723990786369",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,16 @@
+{
+    "AS_VBox_i5a7bc88b80241c89e03799617269097": {
+        "id": "AS_VBox_i5a7bc88b80241c89e03799617269097",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_f3a11657873f45ed98203aa34bc33fd4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "taskOverview.onBtnRelatedProductRemoveClick();"
+        }]
+    }
+}

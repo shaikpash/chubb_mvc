@@ -1,0 +1,19 @@
+{
+    "p2kwiet168597368520651_IDtext_onTextChange_seq0": {
+        "id": "p2kwiet168597368520651_IDtext_onTextChange_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "changedtext",
+            "value": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onTextChange_946616850822901720",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "login.onLoginIdChange();"
+        }]
+    }
+}

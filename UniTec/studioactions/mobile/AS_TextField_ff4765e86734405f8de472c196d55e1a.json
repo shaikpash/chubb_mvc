@@ -1,0 +1,26 @@
+{
+    "AS_TextField_ff4765e86734405f8de472c196d55e1a": {
+        "id": "AS_TextField_ff4765e86734405f8de472c196d55e1a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520795"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dfaef21b20434cec8e13242d3adbd0c2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmRelatedProductAdd.segRelatedProduct.isVisible = true;\nrelatedProductAdd.tbRelatedProductText = frmRelatedProductAdd.tbRelatedProducts.text;\nrelatedProductAdd.RelatedProductsData\nvar relatedMatch = [];\nfor(var i=0; i<relatedProductAdd.relatedProductData.length; i++){\n  if(relatedProductAdd.relatedProductData[i].match(relatedProductAdd.tbRelatedProductText) != null){\n    relatedMatch.push({lblRelatedProduct: relatedProductAdd.relatedProductData[i][1]});\n  }\n}\nfrmRelatedProductAdd.segRelatedProduct.setData(relatedMatch);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

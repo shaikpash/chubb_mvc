@@ -1,0 +1,26 @@
+{
+    "AS_VBox_ae49c4ddf2fa4150bacd7bc718a4f3ac": {
+        "id": "AS_VBox_ae49c4ddf2fa4150bacd7bc718a4f3ac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "type": "templates",
+            "platform": "",
+            "KUID": "p2kwiet168597368521944"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cf607659fce94efb9227c7dbdd56970b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "articleRecommendations.onBtnAddPhotoClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

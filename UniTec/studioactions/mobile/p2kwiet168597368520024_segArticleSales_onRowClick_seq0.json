@@ -1,0 +1,25 @@
+{
+    "p2kwiet168597368520024_segArticleSales_onRowClick_seq0": {
+        "id": "p2kwiet168597368520024_segArticleSales_onRowClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "sectionNumber",
+            "value": "sectionNumber"
+        }, {
+            "name": "rowNumber",
+            "value": "rowNumber"
+        }, {
+            "name": "selectedState",
+            "value": "selectedState"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onRowClick_385816850822907750",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "articleSalesTasks.onSegArticleSalesRowClick(sectionNumber, rowNumber, selectedState, eventobject);"
+        }]
+    }
+}

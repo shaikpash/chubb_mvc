@@ -1,0 +1,16 @@
+{
+    "AS_VBox_i0043afe9d6347e49dd9c9417bd50c2f": {
+        "id": "AS_VBox_i0043afe9d6347e49dd9c9417bd50c2f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_dfdd0042cdde42d68b4543a7c5f3cc98",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "travelStart.onGoClicked();"
+        }]
+    }
+}

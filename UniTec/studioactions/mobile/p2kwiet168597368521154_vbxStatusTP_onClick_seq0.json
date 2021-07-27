@@ -1,0 +1,19 @@
+{
+    "p2kwiet168597368521154_vbxStatusTP_onClick_seq0": {
+        "id": "p2kwiet168597368521154_vbxStatusTP_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "context",
+            "value": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_204616850822904695",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "taskOverview.onVbxStatusTPClick();"
+        }]
+    }
+}

@@ -1,0 +1,346 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizPickerView",
+    "DNDConfig": null,
+    "__inst": {
+        "_selectedValues": {},
+        "settings": {
+            "ariaDesc": "Select a value",
+            "cancelText": "Cancel",
+            "delay": 300,
+            "disabled": false,
+            "display": "inline",
+            "fixedWidth": [
+                50,
+                50
+            ],
+            "headerText": "{value}",
+            "height": 40,
+            "id": "uwu2e96b0c7bd44affb566b04ef630515e_pvDuration",
+            "lang": "en-US",
+            "layout": "fixed",
+            "minWidth": 0,
+            "mode": "scroller",
+            "preset": "",
+            "readonly": false,
+            "rows": 3,
+            "scrollLock": true,
+            "setText": "Set",
+            "showLabel": false,
+            "showOnFocus": true,
+            "showOnTap": true,
+            "speedUnit": 0.0012,
+            "tap": true,
+            "theme": "ios",
+            "timeUnit": 0.1,
+            "wheels": [
+                [
+                    {
+                        "keys": [
+                            "0",
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "7"
+                        ],
+                        "values": [
+                            "00 h",
+                            "01 h",
+                            "02 h",
+                            "03 h",
+                            "04 h",
+                            "05 h",
+                            "06 h",
+                            "07 h"
+                        ],
+                        "width": 50
+                    },
+                    {
+                        "keys": [
+                            "0",
+                            "5",
+                            "10",
+                            "15",
+                            "20",
+                            "25",
+                            "30",
+                            "35",
+                            "40",
+                            "45",
+                            "50",
+                            "55"
+                        ],
+                        "values": [
+                            "00",
+                            "05",
+                            "10",
+                            "15",
+                            "20",
+                            "25",
+                            "30",
+                            "35",
+                            "40",
+                            "45",
+                            "50",
+                            "55"
+                        ],
+                        "width": 50
+                    }
+                ]
+            ],
+            "width": 70
+        },
+        "temp": [
+            "0",
+            "0"
+        ],
+        "val": "0 0",
+        "values": [
+            "0",
+            "0"
+        ]
+    },
+    "__parentReadjusting__": false,
+    "__wheels": [
+        [
+            {
+                "keys": [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "values": [
+                    "00 h",
+                    "01 h",
+                    "02 h",
+                    "03 h",
+                    "04 h",
+                    "05 h",
+                    "06 h",
+                    "07 h"
+                ],
+                "width": 50
+            },
+            {
+                "keys": [
+                    "0",
+                    "5",
+                    "10",
+                    "15",
+                    "20",
+                    "25",
+                    "30",
+                    "35",
+                    "40",
+                    "45",
+                    "50",
+                    "55"
+                ],
+                "values": [
+                    "00",
+                    "05",
+                    "10",
+                    "15",
+                    "20",
+                    "25",
+                    "30",
+                    "35",
+                    "40",
+                    "45",
+                    "50",
+                    "55"
+                ],
+                "width": 50
+            }
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s85aac7b1dcb4df8885c80f71e39e765",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "android": {
+        "psp": {
+            "viewType": 1
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "desktopweb": {
+        "render": false
+    },
+    "id": "pvDuration",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "itemorientation": "vertical",
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "b41c1cd66c56440dbc9525d77c375288",
+    "masterdata": [
+        [
+            [
+                "0",
+                "00 h"
+            ],
+            [
+                "1",
+                "01 h"
+            ],
+            [
+                "2",
+                "02 h"
+            ],
+            [
+                "3",
+                "03 h"
+            ],
+            [
+                "4",
+                "04 h"
+            ],
+            [
+                "5",
+                "05 h"
+            ],
+            [
+                "6",
+                "06 h"
+            ],
+            [
+                "7",
+                "07 h"
+            ],
+            50,
+            "hours"
+        ],
+        [
+            [
+                "0",
+                "00"
+            ],
+            [
+                "5",
+                "05"
+            ],
+            [
+                "10",
+                "10"
+            ],
+            [
+                "15",
+                "15"
+            ],
+            [
+                "20",
+                "20"
+            ],
+            [
+                "25",
+                "25"
+            ],
+            [
+                "30",
+                "30"
+            ],
+            [
+                "35",
+                "35"
+            ],
+            [
+                "40",
+                "40"
+            ],
+            [
+                "45",
+                "45"
+            ],
+            [
+                "50",
+                "50"
+            ],
+            [
+                "55",
+                "55"
+            ],
+            50,
+            "minutes"
+        ]
+    ],
+    "masterdatamap": null,
+    "name": "kony.ui.PickerView",
+    "parent": "flxDuration",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": null,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": [
+        "00 h",
+        "00"
+    ],
+    "size": 18,
+    "spaan": {
+        "render": false
+    },
+    "spaandroidtablet": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spaipad": {
+        "render": false
+    },
+    "spawindowstablet": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "viewtype": 0,
+    "wType": "PickerView",
+    "watchos": {
+        "render": false
+    },
+    "windows8": {
+        "render": false
+    },
+    "zindex": 1
+}

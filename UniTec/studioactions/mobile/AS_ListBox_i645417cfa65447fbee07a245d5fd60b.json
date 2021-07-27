@@ -1,0 +1,23 @@
+{
+    "AS_ListBox_i645417cfa65447fbee07a245d5fd60b": {
+        "id": "AS_ListBox_i645417cfa65447fbee07a245d5fd60b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520727"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ca3e5d7479bc4472b4a7b740f7946fb9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "questionnaireDisplay.onCatalogSelected();\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

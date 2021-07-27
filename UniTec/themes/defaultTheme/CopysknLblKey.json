@@ -1,0 +1,43 @@
+{
+    "applicableblockedUIWidget": "Button",
+    "background_color": "c0c0c0ff",
+    "bg_type": "one",
+    "blockedimgURL": "",
+    "border_color": "000000ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "bottom_left_border_color": "000000ff",
+    "bottom_left_border_radius": 10,
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "000000ff",
+    "bottom_right_border_radius": 10,
+    "bottom_right_border_width": 0,
+    "font_color": "ffffffff",
+    "font_size": 120,
+    "font_weight": "bold",
+    "gridLineColor": "0000000",
+    "isForked": false,
+    "kuid": "sd7a593da4ed428f917b54ba4dd6d006",
+    "shadow": {
+        "br": 0,
+        "color": "000000",
+        "inner": false,
+        "x": 0,
+        "y": 0
+    },
+    "text_shadow": {
+        "br": 0,
+        "color": "000000",
+        "x": 0,
+        "y": 0
+    },
+    "top_left_border_color": "000000ff",
+    "top_left_border_radius": 10,
+    "top_left_border_width": 0,
+    "top_right_border_color": "000000ff",
+    "top_right_border_radius": 10,
+    "top_right_border_width": 0,
+    "vizChannel": "default",
+    "wType": "Label"
+}

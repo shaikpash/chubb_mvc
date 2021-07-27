@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368520371_cbxBuilding_onSelection_seq0": {
+        "id": "p2kwiet168597368520371_cbxBuilding_onSelection_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onSelection_445846850822907431",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "inventory.onCbxBuildingSelection(eventobject.selectedKey);"
+        }]
+    }
+}

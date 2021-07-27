@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368521584_hbFAR_onClick_seq0": {
+        "id": "p2kwiet168597368521584_hbFAR_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_661726850822904527",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "woSummary.onFarSurveyClick();"
+        }]
+    }
+}

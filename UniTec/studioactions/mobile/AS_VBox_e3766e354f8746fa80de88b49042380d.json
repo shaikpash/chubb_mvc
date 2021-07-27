@@ -1,0 +1,26 @@
+{
+    "AS_VBox_e3766e354f8746fa80de88b49042380d": {
+        "id": "AS_VBox_e3766e354f8746fa80de88b49042380d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "type": "templates",
+            "platform": "",
+            "KUID": "p2kwiet168597368521929"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__eed1d3362f204208b6335a8fdebcbcbd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "inventoryAllocation.onBtnReplaceClick(context.rowIndex);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

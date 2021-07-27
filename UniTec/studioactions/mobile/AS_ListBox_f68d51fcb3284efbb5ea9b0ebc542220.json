@@ -1,0 +1,23 @@
+{
+    "AS_ListBox_f68d51fcb3284efbb5ea9b0ebc542220": {
+        "id": "AS_ListBox_f68d51fcb3284efbb5ea9b0ebc542220",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521470"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g6bbf8d1d61e4cc1877bc0744180a28f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "workOrderOverview.onContactTypeSelection();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

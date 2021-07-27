@@ -1,0 +1,23 @@
+{
+    "AS_VBox_dfaf13ed22bb46f0bb9b6b2d180fed3e": {
+        "id": "AS_VBox_dfaf13ed22bb46f0bb9b6b2d180fed3e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521548"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i869bba8d4004ce4abb5b65b64c1965f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "workOrders.onBtnClearCalendarClick('endDate', frmWorkOrders.clnEndDate);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

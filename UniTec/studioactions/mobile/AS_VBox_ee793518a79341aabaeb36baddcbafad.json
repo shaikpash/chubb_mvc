@@ -1,0 +1,19 @@
+{
+    "AS_VBox_ee793518a79341aabaeb36baddcbafad": {
+        "id": "AS_VBox_ee793518a79341aabaeb36baddcbafad",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "context",
+            "value": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_f4cf0ee530bb47a6901b47026d68e6af",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "summaryService.onChubbTaskSelection(context.rowIndex);"
+        }]
+    }
+}

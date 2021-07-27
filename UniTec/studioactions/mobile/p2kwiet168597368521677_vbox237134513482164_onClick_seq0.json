@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368521677_vbox237134513482164_onClick_seq0": {
+        "id": "p2kwiet168597368521677_vbox237134513482164_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_706596850822901808",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "phoneEdit.remove();"
+        }]
+    }
+}

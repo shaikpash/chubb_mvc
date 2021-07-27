@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368521470_btnCompletedByPhone_onClick_seq0": {
+        "id": "p2kwiet168597368521470_btnCompletedByPhone_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_30743685082290125",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "workOrderOverview.btnCompletedByPhoneClick();"
+        }]
+    }
+}

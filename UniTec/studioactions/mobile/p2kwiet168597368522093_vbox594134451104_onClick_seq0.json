@@ -1,0 +1,19 @@
+{
+    "p2kwiet168597368522093_vbox594134451104_onClick_seq0": {
+        "id": "p2kwiet168597368522093_vbox594134451104_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "context",
+            "value": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_682356850822907729",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "summaryService.onTodoTaskSelection(context.sectionIndex, context.rowIndex, context.widgetInfo.selectedItems[0]);"
+        }]
+    }
+}
