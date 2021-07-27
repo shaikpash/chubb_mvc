@@ -1,0 +1,89 @@
+{
+    "splashScreen": {
+        "desktop": {
+            "desktopweb": {
+                "backgroundColor": "ffffff"
+            },
+            "kiosk": {}
+        },
+        "mobile": {
+            "android": {
+                "animationDuration": 10,
+                "backgroundColor": "ffffff",
+                "showLoadingIndicator": true,
+                "videoInterruptible": false
+            },
+            "iphone": {
+                "animationDuration": 10,
+                "showLoadingIndicator": true,
+                "splashConfig": {
+                    "children": [
+                        {
+                            "UIElementType": "imageUIElement",
+                            "contentMode": "scaleToFill",
+                            "height": "100%",
+                            "left": "0dp",
+                            "source": "splash.png",
+                            "top": "0dp",
+                            "visible": true,
+                            "width": "100%"
+                        }
+                    ],
+                    "skin": {
+                        "backgroundColor": "7e7e7e00"
+                    }
+                },
+                "videoInterruptible": false
+            },
+            "spa": {
+                "backgroundColor": "ffffff"
+            },
+            "spaan": {},
+            "spaip": {},
+            "spawinphone8": {},
+            "splashImage": "splash.png",
+            "winphone10": {},
+            "winphone8": {
+                "showLoadingIndicator": true
+            }
+        },
+        "tablet": {
+            "android": {
+                "animationDuration": 10,
+                "backgroundColor": "ffffff",
+                "showLoadingIndicator": true,
+                "videoInterruptible": true
+            },
+            "ipad": {
+                "animationDuration": 10,
+                "landscape": {
+                    "animationDuration": 10,
+                    "videoInterruptible": false
+                },
+                "showLoadingIndicator": true,
+                "splashConfig": {
+                    "children": [],
+                    "skin": {
+                        "backgroundColor": "7e7e7e00"
+                    }
+                },
+                "videoInterruptible": true
+            },
+            "spa": {
+                "backgroundColor": "ffffff"
+            },
+            "spaandroidtablet": {},
+            "spaipad": {},
+            "spawindowstablet": {},
+            "windows10": {
+                "backgroundColor": "ffffff",
+                "foregroundColor": "ffffff"
+            },
+            "windows8": {
+                "backgroundColor": "ffffff",
+                "foregroundColor": "ffffff",
+                "showLoadingIndicator": true
+            }
+        }
+    }
+}

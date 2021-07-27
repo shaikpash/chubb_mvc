@@ -1,0 +1,23 @@
+{
+    "AS_ListBox_b9cd828132d741caae1aacbb0ce492d8": {
+        "id": "AS_ListBox_b9cd828132d741caae1aacbb0ce492d8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520851"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d71f83cd6e5f4030b0df531d1f0c367c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "summaryService.onDiscountSelection(eventobject.selectedKeyValue[1]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

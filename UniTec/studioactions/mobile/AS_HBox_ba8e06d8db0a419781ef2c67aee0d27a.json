@@ -1,0 +1,20 @@
+{
+    "AS_HBox_ba8e06d8db0a419781ef2c67aee0d27a": {
+        "id": "AS_HBox_ba8e06d8db0a419781ef2c67aee0d27a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "type": "templates",
+            "platform": "",
+            "KUID": "p2kwiet168597368521473"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

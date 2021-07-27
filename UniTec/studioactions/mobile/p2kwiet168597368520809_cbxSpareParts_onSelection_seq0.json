@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368520809_cbxSpareParts_onSelection_seq0": {
+        "id": "p2kwiet168597368520809_cbxSpareParts_onSelection_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onSelection_727396850822903600",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "sparePartAdd.onCbxSparePartsSelection();"
+        }]
+    }
+}

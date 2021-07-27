@@ -1,0 +1,1 @@
+function p2kwiet168597368520893_segChubbTasks_onRowClick_seq0(eventobject, sectionNumber, rowNumber) {}

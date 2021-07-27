@@ -1,0 +1,22 @@
+{
+    "p2kwiet168597368519822_weekHBTuesday_onClick_seq0": {
+        "id": "p2kwiet168597368519822_weekHBTuesday_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_751746850822905855",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "week_onDayClick",
+            "display": "week_onDayClick",
+            "inputparams": [{
+                "name": "dayNum",
+                "value": "1"
+            }],
+            "source": "module"
+        }]
+    }
+}

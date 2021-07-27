@@ -1,0 +1,29 @@
+{
+    "AS_Segment_b9b354bba1cd42f6a2362916100ff674": {
+        "id": "AS_Segment_b9b354bba1cd42f6a2362916100ff674",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "f5af965ce02541ba97f29d05114f1101"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e639a3cc7d084af8ab4f7d1429f1e6ff",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "questionnaireDisplay.onQuestionSelect(null, frmQuestionnaire.segQuestions.selectedItems[0]);",
+            "parentId": null,
+            "disabled": false
+        }]
+    }
+}

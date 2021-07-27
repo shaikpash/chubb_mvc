@@ -1,0 +1,21 @@
+{
+    "AS_HBox_d4df1c350c6b4020826f86ded8b324ac": {
+        "id": "AS_HBox_d4df1c350c6b4020826f86ded8b324ac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520893"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_h0f1c767ac68411192ac753805656a46",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "summaryService.toggleVisibility(\n frmSummaryServiceChubb.tabPane.segPreventiveConsumption,\n frmSummaryServiceChubb.tabPane.imgPreventiveExp);"
+        }]
+    }
+}

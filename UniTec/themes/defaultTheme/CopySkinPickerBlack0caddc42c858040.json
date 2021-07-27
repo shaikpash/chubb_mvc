@@ -1,0 +1,62 @@
+{
+  "android": {
+    "background_color": "1f1f1fff",
+    "bg_type": "one",
+    "border_color": "000000ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "font_color": "ffffffff",
+    "font_size": 100,
+    "isForked": true
+  },
+  "background_color": "000000ff",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "font_color": "fcf7fcff",
+  "font_size": 100,
+  "ipad": {
+    "background_color": "1f1f1fff",
+    "bg_type": "one",
+    "border_color": "000000ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "font_color": "ffffffff",
+    "font_name": "Arial",
+    "font_size": 100,
+    "isForked": true,
+    "shadow": {
+      "br": 0,
+      "color": "f7f7f7ff",
+      "inner": false,
+      "nm": 0,
+      "x": 0,
+      "y": 0
+    }
+  },
+  "isDefaultSkin": false,
+  "kuid": "s7c9da7a321e49debe87664c061b9d78",
+  "tabrcandroid": {
+    "background_color": "1f1f1fff",
+    "bg_type": "one",
+    "border_color": "000000ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "font_color": "ffffffff",
+    "font_size": 100,
+    "isForked": true
+  },
+  "wType": "PickerView",
+  "winphone8": {
+    "background_color": "1f1f1fff",
+    "bg_type": "one",
+    "border_color": "000000ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "font_color": "ffffffff",
+    "font_size": 100,
+    "isForked": true
+  }
+}

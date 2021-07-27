@@ -1,0 +1,28 @@
+{
+    "AS_HBox_fb07445a8f1640109720dafee6dcf8cc": {
+        "id": "AS_HBox_fb07445a8f1640109720dafee6dcf8cc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368519822"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e423285036184011b2077b06bee6260a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "week_onDayClick",
+            "display": "week_onDayClick",
+            "inputparams": [{
+                "name": "dayNum",
+                "value": "5"
+            }],
+            "parentId": null,
+            "source": "module"
+        }]
+    }
+}

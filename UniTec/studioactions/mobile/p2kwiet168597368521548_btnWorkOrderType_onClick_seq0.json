@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368521548_btnWorkOrderType_onClick_seq0": {
+        "id": "p2kwiet168597368521548_btnWorkOrderType_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_323096850822905854",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "workOrders.onBtnFilterParamClick('workOrderType', frmWorkOrders.txtWorkOrderType);"
+        }]
+    }
+}

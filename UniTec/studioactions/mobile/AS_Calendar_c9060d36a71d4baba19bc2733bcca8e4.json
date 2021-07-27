@@ -1,0 +1,25 @@
+{
+    "AS_Calendar_c9060d36a71d4baba19bc2733bcca8e4": {
+        "id": "AS_Calendar_c9060d36a71d4baba19bc2733bcca8e4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "boolean",
+            "name": "isValidDateSelected"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520727"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b203937900fe4fac86923c1e0c944621",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "questionnaireDisplay.onAnswerDateEdit();",
+            "parentId": null
+        }]
+    }
+}

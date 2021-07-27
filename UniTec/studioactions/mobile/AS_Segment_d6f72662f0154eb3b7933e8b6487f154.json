@@ -1,0 +1,29 @@
+{
+    "AS_Segment_d6f72662f0154eb3b7933e8b6487f154": {
+        "id": "AS_Segment_d6f72662f0154eb3b7933e8b6487f154",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521470"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b6475af92b9f4e86b1a7d29827780037",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmWorkOrderOverview.segSecondTec.isVisible = false;\nworkOrderOverview.changeSecondTechnicianName();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "p2kwiet168597368520138_frmEquipmentOrderVerify_preshow_seq0": {
+        "id": "p2kwiet168597368520138_frmEquipmentOrderVerify_preshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_preshow_299356850822909904",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "equipmentOrderVerify.preShow();\n navigationModel.push();"
+        }]
+    }
+}

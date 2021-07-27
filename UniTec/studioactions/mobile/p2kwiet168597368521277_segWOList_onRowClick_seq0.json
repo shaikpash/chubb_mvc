@@ -1,0 +1,25 @@
+{
+    "p2kwiet168597368521277_segWOList_onRowClick_seq0": {
+        "id": "p2kwiet168597368521277_segWOList_onRowClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "sectionNumber",
+            "value": "sectionNumber"
+        }, {
+            "name": "rowNumber",
+            "value": "rowNumber"
+        }, {
+            "name": "selectedState",
+            "value": "selectedState"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onRowClick_685176850822901504",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "woGroupingDisplay.onRowClick( rowNumber , selectedState );"
+        }]
+    }
+}

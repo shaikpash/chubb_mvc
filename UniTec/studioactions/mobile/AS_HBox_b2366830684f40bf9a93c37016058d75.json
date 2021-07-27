@@ -1,0 +1,23 @@
+{
+    "AS_HBox_b2366830684f40bf9a93c37016058d75": {
+        "id": "AS_HBox_b2366830684f40bf9a93c37016058d75",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "e17ce193fc42432db85d3e5d0a59a9a4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jce77a7d2463431d9efe126bd83840f4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "cameraComment.onClickValidate();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Button_feafaf5df8f74009a82be655219a3ea5": {
+        "id": "AS_Button_feafaf5df8f74009a82be655219a3ea5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520421"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__afce539e7f4140d2b651279f6f109e75",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "inventoryAllocation.onBtnSaveClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

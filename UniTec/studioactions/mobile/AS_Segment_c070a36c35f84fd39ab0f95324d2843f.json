@@ -1,0 +1,65 @@
+{
+    "AS_Segment_c070a36c35f84fd39ab0f95324d2843f": {
+        "id": "AS_Segment_c070a36c35f84fd39ab0f95324d2843f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "bdce774b0ca5491897b186afe49438d5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SCALE_ACTION____f2e6a30e97d145298ed38530ebfcadbd",
+            "type": "SCALE_ACTION",
+            "itemType": "FORM",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {},
+                "rectified": true
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "animationId": "SCALE_ACTION____f2e6a30e97d145298ed38530ebfcadbd",
+            "displayAnimationId": "SCALE_ACTION____f2e6a30e97d145298ed38530ebfcadbd",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "TRANSFORM_ACTION_NEW____b68b88d272ab4bd98a5b70f16e71d01d",
+            "type": "TRANSFORM_ACTION_NEW",
+            "itemType": "FORM",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {},
+                "rectified": true
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "animationId": "TRANSFORM_ACTION_NEW____b68b88d272ab4bd98a5b70f16e71d01d",
+            "displayAnimationId": "TRANSFORM_ACTION_NEW____b68b88d272ab4bd98a5b70f16e71d01d",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

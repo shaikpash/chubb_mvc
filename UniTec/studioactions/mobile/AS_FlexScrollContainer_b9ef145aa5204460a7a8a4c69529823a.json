@@ -1,0 +1,27 @@
+{
+    "AS_FlexScrollContainer_b9ef145aa5204460a7a8a4c69529823a": {
+        "id": "AS_FlexScrollContainer_b9ef145aa5204460a7a8a4c69529823a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368519822"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c2aa96f9c6a14430bc83f64ac0be80e4",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "day_onScrollEvent",
+            "display": "day_onScrollEvent",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

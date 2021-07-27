@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368521654_btnCancel_onClick_seq0": {
+        "id": "p2kwiet168597368521654_btnCancel_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_863646850822906112",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "exchangeItemPop.dismiss();\ntaskOverview.cbxChoicesData = null;"
+        }]
+    }
+}

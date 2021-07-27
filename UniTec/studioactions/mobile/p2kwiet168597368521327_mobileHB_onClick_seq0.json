@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368521327_mobileHB_onClick_seq0": {
+        "id": "p2kwiet168597368521327_mobileHB_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_144206850822907377",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "phoneEdit.show(\n frmWorkOrderContactEdit.databpane.txtMobileNumber.text,\n frmWorkOrderContactEdit.databpane.txtMobileNumber,\n frmWorkOrderContactEdit.databpane.txtLastName\n );"
+        }]
+    }
+}

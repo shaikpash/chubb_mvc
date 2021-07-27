@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368520292_vBBtnBckGrdDelivery_onClick_seq0": {
+        "id": "p2kwiet168597368520292_vBBtnBckGrdDelivery_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_553526850822909727",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmEquipmentOrderOverview.show();"
+        }]
+    }
+}

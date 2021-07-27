@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368520227_vbox237134513303540_onClick_seq0": {
+        "id": "p2kwiet168597368520227_vbox237134513303540_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_722986850822904209",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "home2.resetSync();"
+        }]
+    }
+}

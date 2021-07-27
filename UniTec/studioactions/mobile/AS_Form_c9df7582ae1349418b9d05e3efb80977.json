@@ -1,0 +1,27 @@
+{
+    "AS_Form_c9df7582ae1349418b9d05e3efb80977": {
+        "id": "AS_Form_c9df7582ae1349418b9d05e3efb80977",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "d38e65b27e0949c683f7d1981b784ee5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_init_hba4fd08f0b24b659e0565845e34faac",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "on_weekPlanningInit",
+            "display": "on_weekPlanningInit",
+            "inputparams": [],
+            "source": "module"
+        }]
+    }
+}

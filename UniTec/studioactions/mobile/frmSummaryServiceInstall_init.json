@@ -1,0 +1,20 @@
+{
+    "p2kwiet168597368520938_frmSummaryServiceInstall_init_seq0": {
+        "id": "p2kwiet168597368520938_frmSummaryServiceInstall_init_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSummaryServiceInstall_init",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_init_977856850822904844",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "summaryService.init(\"frmSummaryServiceInstall\");"
+        }]
+    }
+}

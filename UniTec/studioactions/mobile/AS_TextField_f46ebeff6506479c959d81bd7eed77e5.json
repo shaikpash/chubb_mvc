@@ -1,0 +1,26 @@
+{
+    "AS_TextField_f46ebeff6506479c959d81bd7eed77e5": {
+        "id": "AS_TextField_f46ebeff6506479c959d81bd7eed77e5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521470"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dbcd94ce0352417ab3633f0c233e8a78",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "workOrderOverview.fillSecondTecSeg(this.text);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

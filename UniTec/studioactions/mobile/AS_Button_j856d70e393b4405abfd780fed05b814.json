@@ -1,0 +1,21 @@
+{
+    "AS_Button_j856d70e393b4405abfd780fed05b814": {
+        "id": "AS_Button_j856d70e393b4405abfd780fed05b814",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "g1e958f1432c42a7aaf2a3136f89b1c3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b5344097d4d6413dbe82e19203b8aff2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "login.onBtnPasswordLostClick();"
+        }]
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "sqljdbc4.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "chubb_france_webservice.jar",
+    "type" : "servicejar"
+  } ]
+}

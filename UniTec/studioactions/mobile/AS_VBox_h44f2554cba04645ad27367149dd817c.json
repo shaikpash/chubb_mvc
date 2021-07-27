@@ -1,0 +1,23 @@
+{
+    "AS_VBox_h44f2554cba04645ad27367149dd817c": {
+        "id": "AS_VBox_h44f2554cba04645ad27367149dd817c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521548"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e0432e845ab14c1cb7fbe71453513760",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "workOrders.onBtnFilterParamClick('status', frmWorkOrders.txtStatus);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

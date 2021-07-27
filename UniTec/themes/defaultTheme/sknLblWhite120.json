@@ -1,0 +1,125 @@
+{
+  "android": {
+    "font_name": "default",
+    "font_size": 120,
+    "isForked": false
+  },
+  "applicableblockedUIWidget": "Button",
+  "background_color": "c0c0c000",
+  "bg_type": "one",
+  "blockedimgURL": "",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "bottom_left_border_color": "000000ff",
+  "bottom_left_border_radius": 10,
+  "bottom_left_border_width": 0,
+  "bottom_right_border_color": "000000ff",
+  "bottom_right_border_radius": 10,
+  "bottom_right_border_width": 0,
+  "desktopweb": {
+    "font_name": "Andale Mono",
+    "font_size": 120,
+    "isForked": false
+  },
+  "fontSizeInPx": false,
+  "font_color": "ffffffff",
+  "font_size": 120,
+  "font_weight": "bold",
+  "gridLineColor": "0000000",
+  "ipad": {
+    "font_name": "AmericanTypewriter",
+    "font_size": 120,
+    "isForked": false
+  },
+  "iphone": {
+    "font_name": "Arial",
+    "font_size": 120,
+    "isForked": false
+  },
+  "isDefaultSkin": false,
+  "isForked": false,
+  "kiosk": {
+    "font_name": "GenericMonospace",
+    "font_size": 120,
+    "isForked": false
+  },
+  "kuid": "s833e4e9d7e7445b9a9364dc32f2a5fe",
+  "shadow": {
+    "br": 0,
+    "color": "000000",
+    "inner": false,
+    "x": 0,
+    "y": 0
+  },
+  "spaan": {
+    "font_name": "Andale Mono",
+    "font_size": 120,
+    "isForked": false
+  },
+  "spaandroidtablet": {
+    "font_name": "Andale Mono",
+    "font_size": 120,
+    "isForked": false
+  },
+  "spabb": {
+    "font_name": "Andale Mono",
+    "font_size": 120,
+    "isForked": false
+  },
+  "spaip": {
+    "font_name": "Andale Mono",
+    "font_size": 120,
+    "isForked": false
+  },
+  "spaipad": {
+    "font_name": "Andale Mono",
+    "font_size": 120,
+    "isForked": false
+  },
+  "spawindowstablet": {
+    "font_name": "Andale Mono",
+    "font_size": 120,
+    "isForked": false
+  },
+  "spawinphone8": {
+    "font_name": "Andale Mono",
+    "font_size": 120,
+    "isForked": false
+  },
+  "tabrcandroid": {
+    "font_name": "default",
+    "font_size": 120,
+    "isForked": false
+  },
+  "text_shadow": {
+    "br": 0,
+    "color": "000000",
+    "x": 0,
+    "y": 0
+  },
+  "top_left_border_color": "000000ff",
+  "top_left_border_radius": 10,
+  "top_left_border_width": 0,
+  "top_right_border_color": "000000ff",
+  "top_right_border_radius": 10,
+  "top_right_border_width": 0,
+  "vizChannel": "default",
+  "wType": "Label",
+  "watchos": {
+    "font_name": "Arial",
+    "font_size": 120,
+    "isForked": false
+  },
+  "windows8": {
+    "font_name": "GenericMonospace",
+    "font_size": 120,
+    "isForked": false
+  },
+  "winphone8": {
+    "font_name": "GenericMonospace",
+    "font_size": 120,
+    "isForked": false
+  }
+}

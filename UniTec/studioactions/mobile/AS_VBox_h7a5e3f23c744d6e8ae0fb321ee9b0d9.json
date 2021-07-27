@@ -1,0 +1,23 @@
+{
+    "AS_VBox_h7a5e3f23c744d6e8ae0fb321ee9b0d9": {
+        "id": "AS_VBox_h7a5e3f23c744d6e8ae0fb321ee9b0d9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520158"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f8e95477eae047ce8cebeafd7871e252",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "equipmentOrderWrite.onVbxDeliveryAddressClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

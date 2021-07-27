@@ -1,0 +1,26 @@
+{
+    "AS_TextField_a18e64b747d84ba89e188f5bf8802e42": {
+        "id": "AS_TextField_a18e64b747d84ba89e188f5bf8802e42",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "type": "templates",
+            "platform": "",
+            "KUID": "p2kwiet168597368520730"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b938706caa594021aba4c5eaebeca958",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "questionnaireDisplay.onAnswerTextBoxEdit(eventobject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

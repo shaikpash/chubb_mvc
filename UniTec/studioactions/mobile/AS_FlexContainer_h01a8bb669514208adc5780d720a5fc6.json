@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_h01a8bb669514208adc5780d720a5fc6": {
+        "id": "AS_FlexContainer_h01a8bb669514208adc5780d720a5fc6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "f5af965ce02541ba97f29d05114f1101"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchEnd_e14817569fb444f39c387560bde2b6af",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.opacity = 1;",
+            "callbackType": null
+        }]
+    }
+}

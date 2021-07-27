@@ -1,0 +1,27 @@
+{
+    "AS_VBox_d0fada8ac03944f0af66bca63ecdee33": {
+        "id": "AS_VBox_d0fada8ac03944f0af66bca63ecdee33",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520227"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___g656714418f8406b88a24f73108835dd",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "loadSurvey",
+            "display": "loadSurvey",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

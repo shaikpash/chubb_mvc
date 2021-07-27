@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368521470_cmbFonctions_onSelection_seq0": {
+        "id": "p2kwiet168597368521470_cmbFonctions_onSelection_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onSelection_28036850822908259",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "workOrderOverview.onContactTypeSelection();"
+        }]
+    }
+}

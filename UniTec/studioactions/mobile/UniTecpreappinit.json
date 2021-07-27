@@ -1,0 +1,19 @@
+{
+    "UniTecpreappinit": {
+        "id": "UniTecpreappinit",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "params",
+            "value": "params"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_preappinit_900816850822903257",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setAppMenuForAppGeneration",
+            "display": "setAppMenuForAppGeneration",
+            "inputparams": [],
+            "source": "module"
+        }]
+    }
+}

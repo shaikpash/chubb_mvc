@@ -1,0 +1,29 @@
+{
+    "AS_Segment_a36d010b7e1744d680a9e67d0f7821d7": {
+        "id": "AS_Segment_a36d010b7e1744d680a9e67d0f7821d7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368519882"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__adc09710dbec47b892aabbc1775a6a30",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "articleRecommendations.onSegItemRowClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

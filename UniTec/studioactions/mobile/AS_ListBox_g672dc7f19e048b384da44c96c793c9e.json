@@ -1,0 +1,23 @@
+{
+    "AS_ListBox_g672dc7f19e048b384da44c96c793c9e": {
+        "id": "AS_ListBox_g672dc7f19e048b384da44c96c793c9e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521608"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g1c1d9644f8e4e09adb15c98d8f33ef8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "WOValidationSignature.contactTypeSelected();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

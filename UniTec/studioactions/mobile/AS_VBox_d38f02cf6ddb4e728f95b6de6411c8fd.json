@@ -1,0 +1,17 @@
+{
+    "AS_VBox_d38f02cf6ddb4e728f95b6de6411c8fd": {
+        "id": "AS_VBox_d38f02cf6ddb4e728f95b6de6411c8fd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c9927db525ba4ebfbf4c6f0db8d9d7c2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "workOrderContactEdit.openEmail();",
+            "callbackType": null
+        }]
+    }
+}

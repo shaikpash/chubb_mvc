@@ -1,0 +1,16 @@
+{
+    "p2kwiet168597368519962_cbxContacts_onSelection_seq0": {
+        "id": "p2kwiet168597368519962_cbxContacts_onSelection_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onSelection_558196850822909742",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "articleSalesQuotation.onCbxContactsSelection();"
+        }]
+    }
+}

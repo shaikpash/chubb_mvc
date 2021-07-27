@@ -1,0 +1,23 @@
+{
+    "AS_Segment_fe4b45801f7c4bb89b827f40d48fd366": {
+        "id": "AS_Segment_fe4b45801f7c4bb89b827f40d48fd366",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368520983"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

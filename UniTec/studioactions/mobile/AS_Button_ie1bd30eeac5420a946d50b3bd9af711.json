@@ -1,0 +1,23 @@
+{
+    "AS_Button_ie1bd30eeac5420a946d50b3bd9af711": {
+        "id": "AS_Button_ie1bd30eeac5420a946d50b3bd9af711",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521608"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e863f36b34dd469b9bb222f25be238c6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "WOValidationSignature.clear();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

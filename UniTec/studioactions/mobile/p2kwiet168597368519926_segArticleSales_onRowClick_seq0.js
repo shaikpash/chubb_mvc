@@ -1,0 +1,3 @@
+function p2kwiet168597368519926_segArticleSales_onRowClick_seq0(eventobject, sectionNumber, rowNumber, selectedState) {
+    articleSales.onSaleSelection(sectionNumber, rowNumber);
+}

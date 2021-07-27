@@ -1,0 +1,28 @@
+{
+    "p2kwiet168597368521470_VBEquConsAdd_onClick_seq0": {
+        "id": "p2kwiet168597368521470_VBEquConsAdd_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "customcode_onClick_11816850822908046",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ibt_onModConsigne",
+            "display": "ibt_onModConsigne",
+            "inputparams": [{
+                "name": "typeConsigne",
+                "value": "'equipement'"
+            }, {
+                "name": "ref",
+                "value": ""
+            }, {
+                "name": "text",
+                "value": ""
+            }],
+            "source": "module"
+        }]
+    }
+}

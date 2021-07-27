@@ -1,0 +1,19 @@
+{
+    "p2kwiet168597368520024_frmArticleSalesTasks_preshow_seq0": {
+        "id": "p2kwiet168597368520024_frmArticleSalesTasks_preshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_preshow_663986850822909994",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "articleSalesTasks.preShow();\n navigationModel.push();"
+        }]
+    }
+}

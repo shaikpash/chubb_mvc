@@ -1,0 +1,19 @@
+{
+    "p2kwiet168597368520727_frmQuestionnaire_onhide_seq0": {
+        "id": "p2kwiet168597368520727_frmQuestionnaire_onhide_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onhide_264646850822909901",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "questionnaireDisplay.onClose();"
+        }]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "p2kwiet168597368520033_frmArticleSalesTasksOld_init_seq0": {
+        "id": "p2kwiet168597368520033_frmArticleSalesTasksOld_init_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_init_578736850822905676",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "articleSalesTasks.init();"
+        }]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "p2kwiet168597368521096_vbox23713451363454_onClick_seq0": {
+        "id": "p2kwiet168597368521096_vbox23713451363454_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "navigation_onClick_390696850822904823",
+            "type": "NAVIGATE_TO_FORM",
+            "formKUID": "p2kwiet168597368520809",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "enableMappingEditor": true,
+            "disabled": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"\",\n        \"widgetId\": \"\"\n    }\n}",
+            "isCustomInput": false
+        }, {
+            "id": "ADD_SNIPPET__b8126b1387c848dc8e0c6c8b9ba19220",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//frmRelatedProductAdd.show();\nif(!taskOverview.isReadOnly) {\n  frmPAConso.show();  \n}\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

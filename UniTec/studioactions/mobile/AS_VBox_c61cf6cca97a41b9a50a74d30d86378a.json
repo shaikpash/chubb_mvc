@@ -1,0 +1,17 @@
+{
+    "AS_VBox_c61cf6cca97a41b9a50a74d30d86378a": {
+        "id": "AS_VBox_c61cf6cca97a41b9a50a74d30d86378a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521327"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

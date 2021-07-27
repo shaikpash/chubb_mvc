@@ -1,0 +1,20 @@
+{
+    "AS_TextField_d44238ce5f1a428380557fdcd4bb2cf8": {
+        "id": "AS_TextField_d44238ce5f1a428380557fdcd4bb2cf8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onEndEditing_b35b0f23252e421290e4eafc120f8627",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "login.onLoginIdChange();",
+            "callbackType": null
+        }]
+    }
+}

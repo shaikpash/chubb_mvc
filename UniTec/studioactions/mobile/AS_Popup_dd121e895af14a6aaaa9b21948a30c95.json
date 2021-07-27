@@ -1,0 +1,23 @@
+{
+    "AS_Popup_dd121e895af14a6aaaa9b21948a30c95": {
+        "id": "AS_Popup_dd121e895af14a6aaaa9b21948a30c95",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "popups",
+            "platform": "",
+            "KUID": "i71a6871cd18400a9744a47bd6eb0316"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ja2ec850d26241569b26ad0af8a8d287",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " popCustomDropDown.listChSeg.onRowClick = function(){onCustomDropdownSelect();};",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

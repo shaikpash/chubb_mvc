@@ -1,0 +1,16 @@
+{
+    "AS_HBox_i47170bf656f42fa94ed4d59b83ffe9d": {
+        "id": "AS_HBox_i47170bf656f42fa94ed4d59b83ffe9d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b8a1cdf8b7d049ca8d50520fa13f4df9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "summaryService.toggleVisibility(\n frmSummaryServiceChubb.tabPane.segPreventiveConsumption,\n frmSummaryServiceChubb.tabPane.imgConsumtionParts);"
+        }]
+    }
+}

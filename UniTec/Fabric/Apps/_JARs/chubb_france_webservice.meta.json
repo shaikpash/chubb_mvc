@@ -1,0 +1,3 @@
+{
+  "dependentJars" : [ "sqljdbc4.jar" ]
+}

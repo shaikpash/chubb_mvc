@@ -1,0 +1,24 @@
+{
+    "AS_Form_a4dc44cc7c7041a0b747357ba678d98a": {
+        "id": "AS_Form_a4dc44cc7c7041a0b747357ba678d98a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "neworientation",
+            "value": "neworientation"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "e17ce193fc42432db85d3e5d0a59a9a4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_badc9ae6afa24ef591d59520cbb916f4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "itemScan.preShow();\n navigationModel.push();"
+        }]
+    }
+}

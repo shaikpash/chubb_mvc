@@ -1,0 +1,26 @@
+{
+    "AS_TextField_f21bb1cee4604f53b900669b556fafea": {
+        "id": "AS_TextField_f21bb1cee4604f53b900669b556fafea",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet168597368521470"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f26bb9beaba74ae2be569106a426e9ea",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmWorkOrderOverview.segSecondTec.isVisible = true;\nworkOrderOverview.fillSecondTecSeg(this.text);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
