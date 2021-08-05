@@ -1,9 +1,0 @@
-{
-  "icon" : "icon.png",
-  "description" : "MF_UNItec_2.9_PY",
-  "subType" : "customapp",
-  "intSvcs" : [ {
-    "name" : "UniTecDevService0",
-    "version" : "1.0"
-  } ]
-}

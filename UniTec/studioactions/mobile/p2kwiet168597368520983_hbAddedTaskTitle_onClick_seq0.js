@@ -1,3 +1,0 @@
-function p2kwiet168597368520983_hbAddedTaskTitle_onClick_seq0(eventobject) {
-    summaryService.toggleVisibility(frmSummaryServiceInstallChubb.tabPane.segAddedTasks, frmSummaryServiceInstallChubb.tabPane.imgTaskAddedExp);
-}

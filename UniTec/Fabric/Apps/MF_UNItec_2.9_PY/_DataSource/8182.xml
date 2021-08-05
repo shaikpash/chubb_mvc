@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<DataSource xmlns:ns2="http://www.kony.com/ns/mapper" ID="8182" Type="database" Class="com.kony.sync.services.datasource.jdbc.JDBCDatasource2">
-    <Database Name="8182" Type="MSSQLSERVER" UserName="KonyHCL" Password="Migration92$" IsJNDIDataSource="false" JndiORJdbcURL="jdbc:sqlserver://10.237.246.114:1433;databaseName=KONY_ChubbSicli" DriverName="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
-</DataSource>
